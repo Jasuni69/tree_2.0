@@ -1,0 +1,783 @@
+true_key,pred_key,margin,n_candidates,true_sim,pred_sim,address,train_photos_true,train_photos_pred,same_address
+Ballonggatan|3,Ballonggatan|2,0.0002524852752685547,2,0.9966772794723511,0.9969297647476196,Ballonggatan,3,2,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|1,Bergslagsvägen 122-172 Åkeshov-Ängby|4,0.0003063678741455078,9,0.9969016313552856,0.9972079992294312,Bergslagsvägen 122-172 Åkeshov-Ängby,22,22,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|1,Bergslagsvägen 122-172 Åkeshov-Ängby|5,9.751319885253906e-05,9,0.9991320371627808,0.9992295503616333,Bergslagsvägen 122-172 Åkeshov-Ängby,22,21,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|1,Bergslagsvägen 122-172 Åkeshov-Ängby|2,0.0004540085792541504,9,0.9979760646820068,0.998430073261261,Bergslagsvägen 122-172 Åkeshov-Ängby,22,20,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|2,Bergslagsvägen 122-172 Åkeshov-Ängby|4,0.0004284381866455078,9,0.9988598823547363,0.9992883205413818,Bergslagsvägen 122-172 Åkeshov-Ängby,20,22,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|2,Bergslagsvägen 122-172 Åkeshov-Ängby|3,0.00033414363861083984,9,0.9983747601509094,0.9987089037895203,Bergslagsvägen 122-172 Åkeshov-Ängby,20,20,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|3,Bergslagsvägen 122-172 Åkeshov-Ängby|2,0.0008949637413024902,9,0.994962215423584,0.9958571791648865,Bergslagsvägen 122-172 Åkeshov-Ängby,20,20,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|4,Bergslagsvägen 122-172 Åkeshov-Ängby|6,0.0004159212112426758,9,0.998883843421936,0.9992997646331787,Bergslagsvägen 122-172 Åkeshov-Ängby,22,15,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|4,Bergslagsvägen 122-172 Åkeshov-Ängby|5,0.00018328428268432617,9,0.998909592628479,0.9990928769111633,Bergslagsvägen 122-172 Åkeshov-Ängby,22,21,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|5,Bergslagsvägen 122-172 Åkeshov-Ängby|7,0.00026875734329223633,9,0.997908353805542,0.9981771111488342,Bergslagsvägen 122-172 Åkeshov-Ängby,21,21,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|5,Bergslagsvägen 122-172 Åkeshov-Ängby|4,0.00019532442092895508,9,0.999144434928894,0.999339759349823,Bergslagsvägen 122-172 Åkeshov-Ängby,21,22,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|6,Bergslagsvägen 122-172 Åkeshov-Ängby|4,0.0002612471580505371,9,0.9986886382102966,0.9989498853683472,Bergslagsvägen 122-172 Åkeshov-Ängby,15,22,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|6,Bergslagsvägen 122-172 Åkeshov-Ängby|2,7.259845733642578e-05,9,0.9994503259658813,0.9995229244232178,Bergslagsvägen 122-172 Åkeshov-Ängby,15,20,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|8,Bergslagsvägen 122-172 Åkeshov-Ängby|7,0.0005148649215698242,9,0.998458206653595,0.9989730715751648,Bergslagsvägen 122-172 Åkeshov-Ängby,20,21,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|8,Bergslagsvägen 122-172 Åkeshov-Ängby|2,0.00034999847412109375,9,0.9947742223739624,0.9951242208480835,Bergslagsvägen 122-172 Åkeshov-Ängby,20,20,True
+Bergslagsvägen 122-172 Åkeshov-Ängby|9,Bergslagsvägen 122-172 Åkeshov-Ängby|5,0.0028681159019470215,9,0.98956698179245,0.992435097694397,Bergslagsvägen 122-172 Åkeshov-Ängby,17,21,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|12,Bergslagsvägen 3-55 Åkeshov-Brommaplan|10,0.002629399299621582,35,0.9944101572036743,0.9970395565032959,Bergslagsvägen 3-55 Åkeshov-Brommaplan,10,10,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|17,Bergslagsvägen 3-55 Åkeshov-Brommaplan|32,0.00020575523376464844,35,0.9979915618896484,0.9981973171234131,Bergslagsvägen 3-55 Åkeshov-Brommaplan,10,9,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|19,Bergslagsvägen 3-55 Åkeshov-Brommaplan|18,0.0004363059997558594,35,0.9991873502731323,0.9996236562728882,Bergslagsvägen 3-55 Åkeshov-Brommaplan,5,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|20,Bergslagsvägen 3-55 Åkeshov-Brommaplan|27,0.00014013051986694336,35,0.9992002844810486,0.9993404150009155,Bergslagsvägen 3-55 Åkeshov-Brommaplan,9,9,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|21,Bergslagsvägen 3-55 Åkeshov-Brommaplan|16,0.00020200014114379883,35,0.9992229342460632,0.999424934387207,Bergslagsvägen 3-55 Åkeshov-Brommaplan,7,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|22,Bergslagsvägen 3-55 Åkeshov-Brommaplan|13,7.992982864379883e-05,35,0.9991549253463745,0.9992348551750183,Bergslagsvägen 3-55 Åkeshov-Brommaplan,10,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|23,Bergslagsvägen 3-55 Åkeshov-Brommaplan|33,9.238719940185547e-05,35,0.9992759227752686,0.9993683099746704,Bergslagsvägen 3-55 Åkeshov-Brommaplan,7,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|24,Bergslagsvägen 3-55 Åkeshov-Brommaplan|25,0.0006758570671081543,35,0.9982377290725708,0.998913586139679,Bergslagsvägen 3-55 Åkeshov-Brommaplan,7,10,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|26,Bergslagsvägen 3-55 Åkeshov-Brommaplan|29,3.2961368560791016e-05,35,0.9991390705108643,0.999172031879425,Bergslagsvägen 3-55 Åkeshov-Brommaplan,6,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|27,Bergslagsvägen 3-55 Åkeshov-Brommaplan|25,0.0004534721374511719,35,0.9987202882766724,0.9991737604141235,Bergslagsvägen 3-55 Åkeshov-Brommaplan,9,10,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|28,Bergslagsvägen 3-55 Åkeshov-Brommaplan|18,0.00013172626495361328,35,0.9988574385643005,0.9989891648292542,Bergslagsvägen 3-55 Åkeshov-Brommaplan,7,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|29,Bergslagsvägen 3-55 Åkeshov-Brommaplan|33,9.59634780883789e-05,35,0.9989097118377686,0.9990056753158569,Bergslagsvägen 3-55 Åkeshov-Brommaplan,7,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|3,Bergslagsvägen 3-55 Åkeshov-Brommaplan|34,1.1920928955078125e-07,35,0.9989833831787109,0.9989835023880005,Bergslagsvägen 3-55 Åkeshov-Brommaplan,7,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|30,Bergslagsvägen 3-55 Åkeshov-Brommaplan|35,0.0004127621650695801,35,0.9977540373802185,0.9981667995452881,Bergslagsvägen 3-55 Åkeshov-Brommaplan,10,9,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|31,Bergslagsvägen 3-55 Åkeshov-Brommaplan|3,0.0008333325386047363,35,0.9981595873832703,0.998992919921875,Bergslagsvägen 3-55 Åkeshov-Brommaplan,8,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|32,Bergslagsvägen 3-55 Åkeshov-Brommaplan|30,0.0003981590270996094,35,0.9991592168807983,0.999557375907898,Bergslagsvägen 3-55 Åkeshov-Brommaplan,9,10,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|33,Bergslagsvägen 3-55 Åkeshov-Brommaplan|31,0.0017181038856506348,35,0.9973427057266235,0.9990608096122742,Bergslagsvägen 3-55 Åkeshov-Brommaplan,7,8,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|34,Bergslagsvägen 3-55 Åkeshov-Brommaplan|30,0.00026029348373413086,35,0.9984008073806763,0.9986611008644104,Bergslagsvägen 3-55 Åkeshov-Brommaplan,7,10,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|35,Bergslagsvägen 3-55 Åkeshov-Brommaplan|12,0.0008918046951293945,35,0.998286247253418,0.9991780519485474,Bergslagsvägen 3-55 Åkeshov-Brommaplan,9,10,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|4,Bergslagsvägen 3-55 Åkeshov-Brommaplan|24,9.894371032714844e-06,35,0.9984400272369385,0.9984499216079712,Bergslagsvägen 3-55 Åkeshov-Brommaplan,8,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|5,Bergslagsvägen 3-55 Åkeshov-Brommaplan|8,0.0007143020629882812,35,0.9977515339851379,0.9984658360481262,Bergslagsvägen 3-55 Åkeshov-Brommaplan,10,7,True
+Bergslagsvägen 3-55 Åkeshov-Brommaplan|6,Bergslagsvägen 3-55 Åkeshov-Brommaplan|25,0.0002942085266113281,35,0.9988243579864502,0.9991185665130615,Bergslagsvägen 3-55 Åkeshov-Brommaplan,7,10,True
+Bergslagsvägen Ängby-Åkeshov|1,Bergslagsvägen Ängby-Åkeshov|10,0.002029240131378174,34,0.9962479472160339,0.9982771873474121,Bergslagsvägen Ängby-Åkeshov,6,7,True
+Bergslagsvägen Ängby-Åkeshov|10,Bergslagsvägen Ängby-Åkeshov|11,0.00021761655807495117,34,0.9992405772209167,0.9994581937789917,Bergslagsvägen Ängby-Åkeshov,7,7,True
+Bergslagsvägen Ängby-Åkeshov|11,Bergslagsvägen Ängby-Åkeshov|16,0.00015985965728759766,34,0.9989786148071289,0.9991384744644165,Bergslagsvägen Ängby-Åkeshov,7,8,True
+Bergslagsvägen Ängby-Åkeshov|12,Bergslagsvägen Ängby-Åkeshov|26,0.001559615135192871,34,0.9979983568191528,0.9995579719543457,Bergslagsvägen Ängby-Åkeshov,6,8,True
+Bergslagsvägen Ängby-Åkeshov|13,Bergslagsvägen Ängby-Åkeshov|11,0.00017851591110229492,34,0.9985607266426086,0.9987392425537109,Bergslagsvägen Ängby-Åkeshov,7,7,True
+Bergslagsvägen Ängby-Åkeshov|14,Bergslagsvägen Ängby-Åkeshov|26,0.00020736455917358398,34,0.9990140199661255,0.9992213845252991,Bergslagsvägen Ängby-Åkeshov,8,8,True
+Bergslagsvägen Ängby-Åkeshov|15,Bergslagsvägen Ängby-Åkeshov|28,0.0009033083915710449,34,0.9984683394432068,0.9993716478347778,Bergslagsvägen Ängby-Åkeshov,8,8,True
+Bergslagsvägen Ängby-Åkeshov|16,Bergslagsvägen Ängby-Åkeshov|19,0.0010559558868408203,34,0.9981549978256226,0.9992109537124634,Bergslagsvägen Ängby-Åkeshov,8,7,True
+Bergslagsvägen Ängby-Åkeshov|18,Bergslagsvägen Ängby-Åkeshov|21,0.0007174015045166016,34,0.9980819225311279,0.9987993240356445,Bergslagsvägen Ängby-Åkeshov,7,7,True
+Bergslagsvägen Ängby-Åkeshov|19,Bergslagsvägen Ängby-Åkeshov|14,0.000779271125793457,34,0.998913049697876,0.9996923208236694,Bergslagsvägen Ängby-Åkeshov,7,8,True
+Bergslagsvägen Ängby-Åkeshov|2,Bergslagsvägen Ängby-Åkeshov|8,0.0011230707168579102,34,0.997852087020874,0.9989751577377319,Bergslagsvägen Ängby-Åkeshov,7,7,True
+Bergslagsvägen Ängby-Åkeshov|21,Bergslagsvägen Ängby-Åkeshov|20,0.0005056858062744141,34,0.998793363571167,0.9992990493774414,Bergslagsvägen Ängby-Åkeshov,7,8,True
+Bergslagsvägen Ängby-Åkeshov|22,Bergslagsvägen Ängby-Åkeshov|25,0.004929184913635254,34,0.9844999313354492,0.9894291162490845,Bergslagsvägen Ängby-Åkeshov,8,7,True
+Bergslagsvägen Ängby-Åkeshov|24,Bergslagsvägen Ängby-Åkeshov|25,6.645917892456055e-05,34,0.9990641474723816,0.9991306066513062,Bergslagsvägen Ängby-Åkeshov,9,7,True
+Bergslagsvägen Ängby-Åkeshov|25,Bergslagsvägen Ängby-Åkeshov|24,0.00016683340072631836,34,0.9987327456474304,0.9988995790481567,Bergslagsvägen Ängby-Åkeshov,7,9,True
+Bergslagsvägen Ängby-Åkeshov|26,Bergslagsvägen Ängby-Åkeshov|28,0.00038427114486694336,34,0.9982254505157471,0.998609721660614,Bergslagsvägen Ängby-Åkeshov,8,8,True
+Bergslagsvägen Ängby-Åkeshov|27,Bergslagsvägen Ängby-Åkeshov|31,0.001376509666442871,34,0.9973880052566528,0.9987645149230957,Bergslagsvägen Ängby-Åkeshov,8,8,True
+Bergslagsvägen Ängby-Åkeshov|28,Bergslagsvägen Ängby-Åkeshov|27,0.0029903650283813477,34,0.9963274002075195,0.9993177652359009,Bergslagsvägen Ängby-Åkeshov,8,8,True
+Bergslagsvägen Ängby-Åkeshov|3,Bergslagsvägen Ängby-Åkeshov|4,0.001303553581237793,34,0.9962617754936218,0.9975653290748596,Bergslagsvägen Ängby-Åkeshov,7,7,True
+Bergslagsvägen Ängby-Åkeshov|30,Bergslagsvägen Ängby-Åkeshov|33,0.0015781521797180176,34,0.9961713552474976,0.9977495074272156,Bergslagsvägen Ängby-Åkeshov,6,8,True
+Bergslagsvägen Ängby-Åkeshov|32,Bergslagsvägen Ängby-Åkeshov|34,9.119510650634766e-06,34,0.9982963800430298,0.9983054995536804,Bergslagsvägen Ängby-Åkeshov,8,8,True
+Bergslagsvägen Ängby-Åkeshov|33,Bergslagsvägen Ängby-Åkeshov|32,0.00047016143798828125,34,0.9981746673583984,0.9986448287963867,Bergslagsvägen Ängby-Åkeshov,8,8,True
+Bergslagsvägen Ängby-Åkeshov|4,Bergslagsvägen Ängby-Åkeshov|3,9.548664093017578e-05,34,0.9989632368087769,0.999058723449707,Bergslagsvägen Ängby-Åkeshov,7,7,True
+Bergslagsvägen Ängby-Åkeshov|5,Bergslagsvägen Ängby-Åkeshov|3,0.0006666779518127441,34,0.9982519745826721,0.9989186525344849,Bergslagsvägen Ängby-Åkeshov,7,7,True
+Bergslagsvägen Ängby-Åkeshov|6,Bergslagsvägen Ängby-Åkeshov|5,0.0008280277252197266,34,0.9968199729919434,0.9976480007171631,Bergslagsvägen Ängby-Åkeshov,7,7,True
+Bergslagsvägen Ängby-Åkeshov|7,Bergslagsvägen Ängby-Åkeshov|2,0.00027495622634887695,34,0.9985865354537964,0.9988614916801453,Bergslagsvägen Ängby-Åkeshov,7,7,True
+Bergslagsvägen Ängby-Åkeshov|9,Bergslagsvägen Ängby-Åkeshov|26,0.00044292211532592773,34,0.9985135793685913,0.9989565014839172,Bergslagsvägen Ängby-Åkeshov,7,8,True
+Birger Jarls gatan 84 - System Bolaget|2,Birger Jarls gatan 84 - System Bolaget|5,0.003852367401123047,5,0.9941327571868896,0.9979851245880127,Birger Jarls gatan 84 - System Bolaget,1,1,True
+Birger Jarls gatan 84 - System Bolaget|3,Birger Jarls gatan 84 - System Bolaget|5,0.0010715723037719727,5,0.9967468976974487,0.9978184700012207,Birger Jarls gatan 84 - System Bolaget,1,1,True
+Birger Jarls gatan 84 - System Bolaget|4,Birger Jarls gatan 84 - System Bolaget|3,0.0013265013694763184,5,0.9966549277305603,0.9979814291000366,Birger Jarls gatan 84 - System Bolaget,1,1,True
+Birger Jarlsgatan 18. Stureplan 2|1,Birger Jarlsgatan 18. Stureplan 2|2,0.0017690062522888184,2,0.9928721189498901,0.994641125202179,Birger Jarlsgatan 18. Stureplan 2,11,8,True
+Björns trädgård|4,Björns trädgård|3,0.003985404968261719,4,0.9892709255218506,0.9932563304901123,Björns trädgård,2,5,True
+Bobergsgatan 49-69|10,Bobergsgatan 49-69|3,8.380413055419922e-05,11,0.9989303350448608,0.999014139175415,Bobergsgatan 49-69,2,4,True
+Bobergsgatan 49-69|12,Bobergsgatan 49-69|11,0.0011490583419799805,11,0.9976476430892944,0.9987967014312744,Bobergsgatan 49-69,5,4,True
+Bobergsgatan 49-69|5,Bobergsgatan 49-69|12,0.0006079673767089844,11,0.997527003288269,0.998134970664978,Bobergsgatan 49-69,2,5,True
+Bobergsgatan 49-69|6,Bobergsgatan 49-69|11,0.0005984306335449219,11,0.9985212087631226,0.9991196393966675,Bobergsgatan 49-69,2,4,True
+Bobergsgatan 49-69|8,Bobergsgatan 49-69|12,0.0002491474151611328,11,0.9978935718536377,0.9981427192687988,Bobergsgatan 49-69,4,5,True
+Bobergsgatan 49-69|9,Bobergsgatan 49-69|12,0.001509547233581543,11,0.9959813356399536,0.9974908828735352,Bobergsgatan 49-69,2,5,True
+Bredängsvägen 31|3,Bredängsvägen 31|2,0.000855565071105957,4,0.9981834888458252,0.9990390539169312,Bredängsvägen 31,27,26,True
+Brålunden 2|1,Brålunden 2|4,1.8477439880371094e-06,12,0.999080240726471,0.999082088470459,Brålunden 2,29,25,True
+Brålunden 2|1,Brålunden 2|8,0.0010443329811096191,12,0.9960481524467468,0.9970924854278564,Brålunden 2,29,26,True
+Brålunden 2|1,Brålunden 2|5,0.0031601786613464355,12,0.994701087474823,0.9978612661361694,Brålunden 2,29,29,True
+Brålunden 2|11,Brålunden 2|9,0.005584657192230225,12,0.9856632947921753,0.9912479519844055,Brålunden 2,26,26,True
+Brålunden 2|12,Brålunden 2|2,0.0030147433280944824,12,0.9913355708122253,0.9943503141403198,Brålunden 2,29,30,True
+Brålunden 2|12,Brålunden 2|9,0.0009883642196655273,12,0.9970165491104126,0.9980049133300781,Brålunden 2,29,26,True
+Brålunden 2|2,Brålunden 2|6,0.0004999637603759766,12,0.9978985786437988,0.9983985424041748,Brålunden 2,30,25,True
+Brålunden 2|3,Brålunden 2|9,0.0012443065643310547,12,0.9975628852844238,0.9988071918487549,Brålunden 2,29,26,True
+Brålunden 2|4,Brålunden 2|8,0.0036873817443847656,12,0.9943212270736694,0.9980086088180542,Brålunden 2,25,26,True
+Brålunden 2|4,Brålunden 2|5,0.0004851818084716797,12,0.99723219871521,0.9977173805236816,Brålunden 2,25,29,True
+Brålunden 2|4,Brålunden 2|7,0.00013840198516845703,12,0.9977016448974609,0.9978400468826294,Brålunden 2,25,29,True
+Brålunden 2|5,Brålunden 2|1,0.003444075584411621,12,0.9934961795806885,0.9969402551651001,Brålunden 2,29,29,True
+Brålunden 2|5,Brålunden 2|4,0.006403088569641113,12,0.9874300360679626,0.9938331246376038,Brålunden 2,29,25,True
+Brålunden 2|7,Brålunden 2|5,6.473064422607422e-05,12,0.9984523057937622,0.9985170364379883,Brålunden 2,29,29,True
+Brålunden 2|7,Brålunden 2|5,0.00018471479415893555,12,0.9988934397697449,0.9990781545639038,Brålunden 2,29,29,True
+Brålunden 2|9,Brålunden 2|3,0.00014573335647583008,12,0.9982719421386719,0.9984176754951477,Brålunden 2,26,29,True
+Bällstavägen 282|1,Bällstavägen 282|2,0.00043201446533203125,2,0.9976806640625,0.998112678527832,Bällstavägen 282,17,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|1,Drottningholmsvägen Abrahamsberg-Stora mossen|28,0.0008568763732910156,32,0.9917897582054138,0.9926466345787048,Drottningholmsvägen Abrahamsberg-Stora mossen,20,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|1,Drottningholmsvägen Abrahamsberg-Stora mossen|2,0.0002561807632446289,32,0.9989744424819946,0.9992306232452393,Drottningholmsvägen Abrahamsberg-Stora mossen,20,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|10,Drottningholmsvägen Abrahamsberg-Stora mossen|23,0.00042378902435302734,32,0.9983152151107788,0.9987390041351318,Drottningholmsvägen Abrahamsberg-Stora mossen,18,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|10,Drottningholmsvägen Abrahamsberg-Stora mossen|3,0.0002900362014770508,32,0.9988299608230591,0.9991199970245361,Drottningholmsvägen Abrahamsberg-Stora mossen,18,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|10,Drottningholmsvägen Abrahamsberg-Stora mossen|4,0.0005350708961486816,32,0.9985523819923401,0.9990874528884888,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|11,Drottningholmsvägen Abrahamsberg-Stora mossen|14,0.00013142824172973633,32,0.9982274770736694,0.9983589053153992,Drottningholmsvägen Abrahamsberg-Stora mossen,16,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|11,Drottningholmsvägen Abrahamsberg-Stora mossen|10,0.000849604606628418,32,0.99659264087677,0.9974422454833984,Drottningholmsvägen Abrahamsberg-Stora mossen,16,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|12,Drottningholmsvägen Abrahamsberg-Stora mossen|16,5.2034854888916016e-05,32,0.9992432594299316,0.9992952942848206,Drottningholmsvägen Abrahamsberg-Stora mossen,17,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|12,Drottningholmsvägen Abrahamsberg-Stora mossen|15,0.00010883808135986328,32,0.9988358020782471,0.9989446401596069,Drottningholmsvägen Abrahamsberg-Stora mossen,17,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|13,Drottningholmsvägen Abrahamsberg-Stora mossen|2,0.00021588802337646484,32,0.9986981153488159,0.9989140033721924,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|13,Drottningholmsvägen Abrahamsberg-Stora mossen|14,0.0006165504455566406,32,0.9981984496116638,0.9988150000572205,Drottningholmsvägen Abrahamsberg-Stora mossen,18,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|14,Drottningholmsvägen Abrahamsberg-Stora mossen|4,0.00032407045364379883,32,0.9984779357910156,0.9988020062446594,Drottningholmsvägen Abrahamsberg-Stora mossen,17,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|15,Drottningholmsvägen Abrahamsberg-Stora mossen|14,0.001160264015197754,32,0.9979363679885864,0.9990966320037842,Drottningholmsvägen Abrahamsberg-Stora mossen,18,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|15,Drottningholmsvägen Abrahamsberg-Stora mossen|14,0.00013399124145507812,32,0.9978988170623779,0.998032808303833,Drottningholmsvägen Abrahamsberg-Stora mossen,18,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|16,Drottningholmsvägen Abrahamsberg-Stora mossen|15,0.0005864500999450684,32,0.9982483386993408,0.9988347887992859,Drottningholmsvägen Abrahamsberg-Stora mossen,17,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|16,Drottningholmsvägen Abrahamsberg-Stora mossen|17,0.0006831884384155273,32,0.9978382587432861,0.9985214471817017,Drottningholmsvägen Abrahamsberg-Stora mossen,17,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|17,Drottningholmsvägen Abrahamsberg-Stora mossen|1,0.0012919306755065918,32,0.9970909953117371,0.9983829259872437,Drottningholmsvägen Abrahamsberg-Stora mossen,18,20,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|17,Drottningholmsvägen Abrahamsberg-Stora mossen|16,0.00026363134384155273,32,0.9987807869911194,0.9990444183349609,Drottningholmsvägen Abrahamsberg-Stora mossen,18,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|17,Drottningholmsvägen Abrahamsberg-Stora mossen|12,0.001067042350769043,32,0.997406542301178,0.998473584651947,Drottningholmsvägen Abrahamsberg-Stora mossen,18,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|18,Drottningholmsvägen Abrahamsberg-Stora mossen|13,0.00012308359146118164,32,0.9992176294326782,0.9993407130241394,Drottningholmsvägen Abrahamsberg-Stora mossen,17,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|19,Drottningholmsvägen Abrahamsberg-Stora mossen|12,0.004707276821136475,32,0.9930109977722168,0.9977182745933533,Drottningholmsvägen Abrahamsberg-Stora mossen,18,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|19,Drottningholmsvägen Abrahamsberg-Stora mossen|6,0.00014287233352661133,32,0.9985105395317078,0.9986534118652344,Drottningholmsvägen Abrahamsberg-Stora mossen,18,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|20,Drottningholmsvägen Abrahamsberg-Stora mossen|9,0.0001970529556274414,32,0.9978828430175781,0.9980798959732056,Drottningholmsvägen Abrahamsberg-Stora mossen,19,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|20,Drottningholmsvägen Abrahamsberg-Stora mossen|16,0.0016025304794311523,32,0.997032880783081,0.9986354112625122,Drottningholmsvägen Abrahamsberg-Stora mossen,19,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|21,Drottningholmsvägen Abrahamsberg-Stora mossen|17,0.0011532902717590332,32,0.9968658089637756,0.9980190992355347,Drottningholmsvägen Abrahamsberg-Stora mossen,19,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|21,Drottningholmsvägen Abrahamsberg-Stora mossen|17,0.0020285844802856445,32,0.9965925216674805,0.9986211061477661,Drottningholmsvägen Abrahamsberg-Stora mossen,19,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|22,Drottningholmsvägen Abrahamsberg-Stora mossen|5,0.0008085966110229492,32,0.9977586269378662,0.9985672235488892,Drottningholmsvägen Abrahamsberg-Stora mossen,17,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|23,Drottningholmsvägen Abrahamsberg-Stora mossen|4,0.00014799833297729492,32,0.9972281455993652,0.9973761439323425,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|23,Drottningholmsvägen Abrahamsberg-Stora mossen|4,0.0008925199508666992,32,0.9981787800788879,0.9990713000297546,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|24,Drottningholmsvägen Abrahamsberg-Stora mossen|31,0.0016232728958129883,32,0.9934109449386597,0.9950342178344727,Drottningholmsvägen Abrahamsberg-Stora mossen,18,12,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|24,Drottningholmsvägen Abrahamsberg-Stora mossen|25,8.821487426757812e-06,32,0.9984029531478882,0.9984117746353149,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|25,Drottningholmsvägen Abrahamsberg-Stora mossen|22,0.0009067058563232422,32,0.9975509643554688,0.998457670211792,Drottningholmsvägen Abrahamsberg-Stora mossen,19,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|26,Drottningholmsvägen Abrahamsberg-Stora mossen|11,0.015176534652709961,32,0.9777538776397705,0.9929304122924805,Drottningholmsvägen Abrahamsberg-Stora mossen,19,16,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|26,Drottningholmsvägen Abrahamsberg-Stora mossen|25,0.0002460479736328125,32,0.9967114925384521,0.996957540512085,Drottningholmsvägen Abrahamsberg-Stora mossen,19,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|27,Drottningholmsvägen Abrahamsberg-Stora mossen|26,0.0003854036331176758,32,0.9982538819313049,0.9986392855644226,Drottningholmsvägen Abrahamsberg-Stora mossen,19,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|27,Drottningholmsvägen Abrahamsberg-Stora mossen|26,0.0012757182121276855,32,0.9965007305145264,0.997776448726654,Drottningholmsvägen Abrahamsberg-Stora mossen,19,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|27,Drottningholmsvägen Abrahamsberg-Stora mossen|22,8.994340896606445e-05,32,0.9954412579536438,0.9955312013626099,Drottningholmsvägen Abrahamsberg-Stora mossen,19,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|28,Drottningholmsvägen Abrahamsberg-Stora mossen|27,0.0007787942886352539,32,0.9971545934677124,0.9979333877563477,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|28,Drottningholmsvägen Abrahamsberg-Stora mossen|27,0.0021449923515319824,32,0.9951772689819336,0.9973222613334656,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|3,Drottningholmsvägen Abrahamsberg-Stora mossen|15,0.0002466440200805664,32,0.9982264637947083,0.9984731078147888,Drottningholmsvägen Abrahamsberg-Stora mossen,18,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|3,Drottningholmsvägen Abrahamsberg-Stora mossen|5,0.0006715059280395508,32,0.9983162879943848,0.9989877939224243,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|30,Drottningholmsvägen Abrahamsberg-Stora mossen|26,0.003147423267364502,32,0.9878952503204346,0.9910426735877991,Drottningholmsvägen Abrahamsberg-Stora mossen,5,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|31,Drottningholmsvägen Abrahamsberg-Stora mossen|33,0.0016965866088867188,32,0.9960867166519165,0.9977833032608032,Drottningholmsvägen Abrahamsberg-Stora mossen,12,7,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|31,Drottningholmsvägen Abrahamsberg-Stora mossen|33,0.001444995403289795,32,0.9964838027954102,0.9979287981987,Drottningholmsvägen Abrahamsberg-Stora mossen,12,7,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|33,Drottningholmsvägen Abrahamsberg-Stora mossen|31,5.698204040527344e-05,32,0.9969594478607178,0.997016429901123,Drottningholmsvägen Abrahamsberg-Stora mossen,7,12,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|4,Drottningholmsvägen Abrahamsberg-Stora mossen|23,0.0005249977111816406,32,0.9981694221496582,0.9986944198608398,Drottningholmsvägen Abrahamsberg-Stora mossen,19,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|4,Drottningholmsvägen Abrahamsberg-Stora mossen|27,0.0032805204391479492,32,0.9941670894622803,0.9974476099014282,Drottningholmsvägen Abrahamsberg-Stora mossen,19,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|5,Drottningholmsvägen Abrahamsberg-Stora mossen|26,0.008641421794891357,32,0.9823673963546753,0.9910088181495667,Drottningholmsvägen Abrahamsberg-Stora mossen,19,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|5,Drottningholmsvägen Abrahamsberg-Stora mossen|3,0.0017540454864501953,32,0.9963157176971436,0.9980697631835938,Drottningholmsvägen Abrahamsberg-Stora mossen,19,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|6,Drottningholmsvägen Abrahamsberg-Stora mossen|23,0.0011084675788879395,32,0.9966141581535339,0.9977226257324219,Drottningholmsvägen Abrahamsberg-Stora mossen,17,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|6,Drottningholmsvägen Abrahamsberg-Stora mossen|8,0.0020444393157958984,32,0.9973504543304443,0.9993948936462402,Drottningholmsvägen Abrahamsberg-Stora mossen,17,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|6,Drottningholmsvägen Abrahamsberg-Stora mossen|18,0.0008550882339477539,32,0.9963647723197937,0.9972198605537415,Drottningholmsvägen Abrahamsberg-Stora mossen,17,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|7,Drottningholmsvägen Abrahamsberg-Stora mossen|27,0.0017703771591186523,32,0.9922701716423035,0.9940405488014221,Drottningholmsvägen Abrahamsberg-Stora mossen,17,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|7,Drottningholmsvägen Abrahamsberg-Stora mossen|11,0.0007446408271789551,32,0.9945170283317566,0.9952616691589355,Drottningholmsvägen Abrahamsberg-Stora mossen,17,16,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|8,Drottningholmsvägen Abrahamsberg-Stora mossen|7,0.0002288818359375,32,0.9978641271591187,0.9980930089950562,Drottningholmsvägen Abrahamsberg-Stora mossen,18,17,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|8,Drottningholmsvägen Abrahamsberg-Stora mossen|4,0.0005701780319213867,32,0.9982496500015259,0.9988198280334473,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|8,Drottningholmsvägen Abrahamsberg-Stora mossen|20,0.0008195042610168457,32,0.9980608820915222,0.9988803863525391,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|9,Drottningholmsvägen Abrahamsberg-Stora mossen|10,0.002640843391418457,32,0.9905896186828613,0.9932304620742798,Drottningholmsvägen Abrahamsberg-Stora mossen,18,18,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|9,Drottningholmsvägen Abrahamsberg-Stora mossen|20,0.00025147199630737305,32,0.9987210035324097,0.998972475528717,Drottningholmsvägen Abrahamsberg-Stora mossen,18,19,True
+Drottningholmsvägen Abrahamsberg-Stora mossen|9,Drottningholmsvägen Abrahamsberg-Stora mossen|12,0.0009945034980773926,32,0.9979909658432007,0.9989854693412781,Drottningholmsvägen Abrahamsberg-Stora mossen,18,17,True
+Elersvägen|2,Elersvägen|1,0.02542811632156372,3,0.959219217300415,0.9846473336219788,Elersvägen,6,5,True
+Elersvägen|3,Elersvägen|2,0.003965497016906738,3,0.9939365983009338,0.9979020953178406,Elersvägen,6,6,True
+Eriksbergsgatan 18|1,Eriksbergsgatan 18|2,0.0011448860168457031,2,0.988147497177124,0.9892923831939697,Eriksbergsgatan 18,5,3,True
+Eriksbergsgatan 18|2,Eriksbergsgatan 18|1,0.005980074405670166,2,0.9914982318878174,0.9974783062934875,Eriksbergsgatan 18,3,5,True
+Ferievägen / Tyska bottenvägen|1,Ferievägen / Tyska bottenvägen|2,6.574392318725586e-05,8,0.9973068833351135,0.9973726272583008,Ferievägen / Tyska bottenvägen,20,20,True
+Ferievägen / Tyska bottenvägen|1,Ferievägen / Tyska bottenvägen|2,0.00045180320739746094,8,0.9976615905761719,0.9981133937835693,Ferievägen / Tyska bottenvägen,20,20,True
+Ferievägen / Tyska bottenvägen|18,Ferievägen / Tyska bottenvägen|19,0.004759609699249268,8,0.986869215965271,0.9916288256645203,Ferievägen / Tyska bottenvägen,20,19,True
+Ferievägen / Tyska bottenvägen|19,Ferievägen / Tyska bottenvägen|18,0.0015358924865722656,8,0.9976269006729126,0.9991627931594849,Ferievägen / Tyska bottenvägen,19,20,True
+Ferievägen / Tyska bottenvägen|19,Ferievägen / Tyska bottenvägen|18,0.002503633499145508,8,0.9947264194488525,0.997230052947998,Ferievägen / Tyska bottenvägen,19,20,True
+Ferievägen / Tyska bottenvägen|2,Ferievägen / Tyska bottenvägen|1,8.881092071533203e-05,8,0.9974430203437805,0.9975318312644958,Ferievägen / Tyska bottenvägen,20,20,True
+Ferievägen / Tyska bottenvägen|7,Ferievägen / Tyska bottenvägen|6,0.00024431943893432617,8,0.998749315738678,0.9989936351776123,Ferievägen / Tyska bottenvägen,22,20,True
+Ferievägen / Tyska bottenvägen|7,Ferievägen / Tyska bottenvägen|6,0.0012213587760925293,8,0.9951052665710449,0.9963266253471375,Ferievägen / Tyska bottenvägen,22,20,True
+Flygfältsgatan 30|3,Flygfältsgatan 30|5,0.0003173351287841797,5,0.9987844228744507,0.9991017580032349,Flygfältsgatan 30,6,4,True
+Flygfältsgatan 30|4,Flygfältsgatan 30|3,0.0028105974197387695,5,0.9964786767959595,0.9992892742156982,Flygfältsgatan 30,5,6,True
+Flygfältsgatan 30|5,Flygfältsgatan 30|4,0.011113286018371582,5,0.9832223653793335,0.9943356513977051,Flygfältsgatan 30,4,5,True
+Färjestadsvägen 18/ Roslinvägen|2,Färjestadsvägen 18/ Roslinvägen|1,0.0007188320159912109,2,0.9956029653549194,0.9963217973709106,Färjestadsvägen 18/ Roslinvägen,19,19,True
+Grusåsgränd|2,Grusåsgränd|3,0.0006412863731384277,11,0.9956716895103455,0.9963129758834839,Grusåsgränd,2,1,True
+Grusåsgränd|3,Grusåsgränd|2,0.0004042387008666992,11,0.9953130483627319,0.9957172870635986,Grusåsgränd,1,2,True
+Gustav Adolfs Torg|1,Gustav Adolfs Torg|3,0.0002237558364868164,11,0.9980781078338623,0.9983018636703491,Gustav Adolfs Torg,2,6,True
+Gustav Adolfs Torg|10,Gustav Adolfs Torg|4,0.0003451704978942871,11,0.9983841180801392,0.9987292885780334,Gustav Adolfs Torg,6,2,True
+Gustav Adolfs Torg|11,Gustav Adolfs Torg|7,0.00017052888870239258,11,0.9985232353210449,0.9986937642097473,Gustav Adolfs Torg,5,9,True
+Gustav Adolfs Torg|2,Gustav Adolfs Torg|3,0.00016111135482788086,11,0.9986286163330078,0.9987897276878357,Gustav Adolfs Torg,1,6,True
+Gustav Adolfs Torg|4,Gustav Adolfs Torg|6,0.0021322965621948242,11,0.9963569641113281,0.998489260673523,Gustav Adolfs Torg,2,7,True
+Gustav Adolfs Torg|5,Gustav Adolfs Torg|7,0.0012055039405822754,11,0.9972545504570007,0.998460054397583,Gustav Adolfs Torg,5,9,True
+Gustav Adolfs Torg|6,Gustav Adolfs Torg|10,0.0007100105285644531,11,0.9984772801399231,0.9991872906684875,Gustav Adolfs Torg,7,6,True
+Gustav Adolfs Torg|7,Gustav Adolfs Torg|10,0.0002707242965698242,11,0.997697114944458,0.9979678392410278,Gustav Adolfs Torg,9,6,True
+Gårdsvägen 7|2,Gårdsvägen 7|1,0.00033336877822875977,6,0.9953138828277588,0.9956472516059875,Gårdsvägen 7,8,11,True
+Gårdsvägen 7|6,Gårdsvägen 7|1,0.000662684440612793,6,0.9821336269378662,0.982796311378479,Gårdsvägen 7,5,11,True
+Hamngatan Stadium och HM|3,Hamngatan Stadium och HM|7,0.0017586350440979004,5,0.9886890649795532,0.9904477000236511,Hamngatan Stadium och HM,1,3,True
+Hedebyvägen 18-26|1,Hedebyvägen 18-26|2,0.003610551357269287,5,0.99290531873703,0.9965158700942993,Hedebyvägen 18-26,18,19,True
+Hedebyvägen 18-26|2,Hedebyvägen 18-26|4,0.0015546679496765137,5,0.9951507449150085,0.9967054128646851,Hedebyvägen 18-26,19,20,True
+Hedebyvägen 18-26|2,Hedebyvägen 18-26|4,0.0004279017448425293,5,0.9948126673698425,0.9952405691146851,Hedebyvägen 18-26,19,20,True
+Hedebyvägen 18-26|4,Hedebyvägen 18-26|3,0.00023037195205688477,5,0.9973411560058594,0.9975715279579163,Hedebyvägen 18-26,20,18,True
+Hedebyvägen 20-50 extra bevattning|1,Hedebyvägen 20-50 extra bevattning|2,0.0009918808937072754,13,0.9975305199623108,0.9985224008560181,Hedebyvägen 20-50 extra bevattning,5,5,True
+Hedebyvägen 20-50 extra bevattning|3,Hedebyvägen 20-50 extra bevattning|11,0.00019550323486328125,13,0.9979798793792725,0.9981753826141357,Hedebyvägen 20-50 extra bevattning,5,5,True
+Hedebyvägen 20-50 extra bevattning|5,Hedebyvägen 20-50 extra bevattning|10,0.00015687942504882812,13,0.9993432760238647,0.9995001554489136,Hedebyvägen 20-50 extra bevattning,5,5,True
+Hedebyvägen 20-50 extra bevattning|6,Hedebyvägen 20-50 extra bevattning|13,0.0001424551010131836,13,0.9979448318481445,0.9980872869491577,Hedebyvägen 20-50 extra bevattning,5,5,True
+Hedebyvägen 20-50 extra bevattning|7,Hedebyvägen 20-50 extra bevattning|6,0.00010842084884643555,13,0.9993909597396851,0.9994993805885315,Hedebyvägen 20-50 extra bevattning,5,5,True
+Hedebyvägen 20-50 extra bevattning|8,Hedebyvägen 20-50 extra bevattning|4,0.00012028217315673828,13,0.9989181756973267,0.9990384578704834,Hedebyvägen 20-50 extra bevattning,5,5,True
+Hedebyvägen 20-50 extra bevattning|9,Hedebyvägen 20-50 extra bevattning|6,2.771615982055664e-05,13,0.9991574287414551,0.9991851449012756,Hedebyvägen 20-50 extra bevattning,5,5,True
+Hedebyvägen 39-47|1,Hedebyvägen 39-47|2,0.006456553936004639,4,0.9920663833618164,0.998522937297821,Hedebyvägen 39-47,7,7,True
+Hedebyvägen 39-47|2,Hedebyvägen 39-47|3,0.0002938508987426758,4,0.9960619807243347,0.9963558316230774,Hedebyvägen 39-47,7,6,True
+Hedebyvägen 39-47|3,Hedebyvägen 39-47|4,4.5359134674072266e-05,4,0.9976632595062256,0.9977086186408997,Hedebyvägen 39-47,6,7,True
+Hedebyvägen 39-47|4,Hedebyvägen 39-47|3,0.0011088252067565918,4,0.9946973919868469,0.9958062171936035,Hedebyvägen 39-47,7,6,True
+Hemslöjdsvägen/Stramaljvägen|1,Hemslöjdsvägen/Stramaljvägen|2,0.0014797449111938477,2,0.9908041954040527,0.9922839403152466,Hemslöjdsvägen/Stramaljvägen,18,18,True
+Hemslöjdsvägen/Stramaljvägen|2,Hemslöjdsvägen/Stramaljvägen|1,0.001592099666595459,2,0.9953025579452515,0.9968946576118469,Hemslöjdsvägen/Stramaljvägen,18,18,True
+Horisontvägen 70-101 /Flygfältsgatan|4,Horisontvägen 70-101 /Flygfältsgatan|2,0.0025103092193603516,3,0.9911454916000366,0.993655800819397,Horisontvägen 70-101 /Flygfältsgatan,1,4,True
+Hässelby torg Etapp 1|1,Hässelby torg Etapp 1|5,0.012245774269104004,9,0.9827249050140381,0.9949706792831421,Hässelby torg Etapp 1,1,1,True
+Hässelby torg Etapp 1|2,Hässelby torg Etapp 1|6,0.0026694536209106445,9,0.9832626581192017,0.9859321117401123,Hässelby torg Etapp 1,1,1,True
+Hässelby torg Etapp 1|5,Hässelby torg Etapp 1|9,0.0004914402961730957,9,0.9905015826225281,0.9909930229187012,Hässelby torg Etapp 1,1,1,True
+Hässelby torg etapp 2|14,Hässelby torg etapp 2|12,0.0036359429359436035,25,0.9894788265228271,0.9931147694587708,Hässelby torg etapp 2,10,11,True
+Hässelby torg etapp 2|19,Hässelby torg etapp 2|21,0.0027655959129333496,25,0.9950010776519775,0.9977666735649109,Hässelby torg etapp 2,9,8,True
+Hässelby torg etapp 2|22,Hässelby torg etapp 2|21,0.0003147721290588379,25,0.9976247549057007,0.9979395270347595,Hässelby torg etapp 2,8,8,True
+Hässelby torg etapp 2|24,Hässelby torg etapp 2|23,0.0005332827568054199,25,0.9980793595314026,0.998612642288208,Hässelby torg etapp 2,11,6,True
+Hässelby torg etapp 2|3,Hässelby torg etapp 2|5,0.014589071273803711,25,0.978702187538147,0.9932912588119507,Hässelby torg etapp 2,1,11,True
+Jungfrugatan|1,Jungfrugatan|2,0.00335770845413208,8,0.9913967251777649,0.994754433631897,Jungfrugatan,3,1,True
+Jungfrugatan|2,Jungfrugatan|1,0.002280890941619873,8,0.9959394931793213,0.9982203841209412,Jungfrugatan,1,3,True
+Jungfrugatan|3,Jungfrugatan|6,0.016676902770996094,8,0.9803403615951538,0.9970172643661499,Jungfrugatan,1,5,True
+Jungfrugatan|4,Jungfrugatan|7,0.007403373718261719,8,0.9906492233276367,0.9980525970458984,Jungfrugatan,1,4,True
+Jungfrugatan|5,Jungfrugatan|7,0.012698888778686523,8,0.9843692183494568,0.9970681071281433,Jungfrugatan,3,4,True
+Jungfrugatan|6,Jungfrugatan|7,0.00012058019638061523,8,0.9955606460571289,0.9956812262535095,Jungfrugatan,5,4,True
+Jungfrugatan|7,Jungfrugatan|3,0.0023453235626220703,8,0.9948858618736267,0.9972311854362488,Jungfrugatan,4,1,True
+Järnvägsparken|1,Järnvägsparken|6,0.00011616945266723633,15,0.9992336630821228,0.99934983253479,Järnvägsparken,14,12,True
+Järnvägsparken|10,Järnvägsparken|11,0.000892341136932373,15,0.99771648645401,0.9986088275909424,Järnvägsparken,12,12,True
+Järnvägsparken|11,Järnvägsparken|15,0.019638359546661377,15,0.9617204070091248,0.9813587665557861,Järnvägsparken,12,12,True
+Järnvägsparken|11,Järnvägsparken|10,0.0002701878547668457,15,0.9989810585975647,0.9992512464523315,Järnvägsparken,12,12,True
+Järnvägsparken|12,Järnvägsparken|10,8.416175842285156e-05,15,0.9992655515670776,0.9993497133255005,Järnvägsparken,12,12,True
+Järnvägsparken|14,Järnvägsparken|10,0.0008729696273803711,15,0.9966851472854614,0.9975581169128418,Järnvägsparken,12,12,True
+Järnvägsparken|14,Järnvägsparken|15,0.00010883808135986328,15,0.9991059303283691,0.999214768409729,Järnvägsparken,12,12,True
+Järnvägsparken|15,Järnvägsparken|11,0.0005452632904052734,15,0.9973316192626953,0.9978768825531006,Järnvägsparken,12,12,True
+Järnvägsparken|2,Järnvägsparken|5,0.002179443836212158,15,0.9956296682357788,0.997809112071991,Järnvägsparken,13,13,True
+Järnvägsparken|2,Järnvägsparken|3,0.004964768886566162,15,0.9941828846931458,0.9991476535797119,Järnvägsparken,13,12,True
+Järnvägsparken|4,Järnvägsparken|6,0.0018242597579956055,15,0.9950182437896729,0.9968425035476685,Järnvägsparken,14,12,True
+Järnvägsparken|6,Järnvägsparken|5,0.00015085935592651367,15,0.9988457560539246,0.9989966154098511,Järnvägsparken,12,13,True
+Järnvägsparken|7,Järnvägsparken|2,0.0014043450355529785,15,0.9961966872215271,0.9976010322570801,Järnvägsparken,12,13,True
+Järnvägsparken|9,Järnvägsparken|7,0.00037360191345214844,15,0.9985504150390625,0.9989240169525146,Järnvägsparken,13,12,True
+Karin Månsdotters väg 7|2,Karin Månsdotters väg 7|3,0.0015301108360290527,3,0.9966226816177368,0.9981527924537659,Karin Månsdotters väg 7,1,1,True
+Karlavägen 92 extra bevattning (82-101)|1,Karlavägen 92 extra bevattning (82-101)|2,0.0014448165893554688,4,0.9950512051582336,0.9964960217475891,Karlavägen 92 extra bevattning (82-101),5,5,True
+Karlavägen 92 extra bevattning (82-101)|2,Karlavägen 92 extra bevattning (82-101)|1,0.000616610050201416,4,0.9937325119972229,0.9943491220474243,Karlavägen 92 extra bevattning (82-101),5,5,True
+Karlavägen 92 extra bevattning (82-101)|3,Karlavägen 92 extra bevattning (82-101)|1,0.0002613663673400879,4,0.9967560768127441,0.9970174431800842,Karlavägen 92 extra bevattning (82-101),3,5,True
+Karlbergsvägen 30|2,Karlbergsvägen 30|1,0.0011813640594482422,2,0.9935896396636963,0.9947710037231445,Karlbergsvägen 30,10,10,True
+Klarabergsgatan 50 Åhlens|2,Klarabergsgatan 50 Åhlens|6,0.0005192756652832031,8,0.9977121353149414,0.9982314109802246,Klarabergsgatan 50 Åhlens,6,5,True
+Klarabergsgatan 50 Åhlens|3,Klarabergsgatan 50 Åhlens|4,0.004373669624328613,8,0.9934266805648804,0.997800350189209,Klarabergsgatan 50 Åhlens,2,5,True
+Klarabergsgatan 50 Åhlens|4,Klarabergsgatan 50 Åhlens|8,0.0009388923645019531,8,0.997348964214325,0.9982878565788269,Klarabergsgatan 50 Åhlens,5,5,True
+Klarabergsgatan 50 Åhlens|5,Klarabergsgatan 50 Åhlens|4,0.00020581483840942383,8,0.9990350008010864,0.9992408156394958,Klarabergsgatan 50 Åhlens,4,5,True
+Klarabergsgatan 50 Åhlens|6,Klarabergsgatan 50 Åhlens|3,0.0012052655220031738,8,0.9962942004203796,0.9974994659423828,Klarabergsgatan 50 Åhlens,5,2,True
+Klarabergsgatan 50 Åhlens|7,Klarabergsgatan 50 Åhlens|5,0.0005764365196228027,8,0.9979842305183411,0.9985606670379639,Klarabergsgatan 50 Åhlens,4,4,True
+Klarabergsgatan 50 Åhlens|8,Klarabergsgatan 50 Åhlens|1,0.00028443336486816406,8,0.9989584684371948,0.999242901802063,Klarabergsgatan 50 Åhlens,5,3,True
+Klarabergsgatan 56-64|2,Klarabergsgatan 56-64|1,0.007791757583618164,6,0.9902219772338867,0.9980137348175049,Klarabergsgatan 56-64,7,7,True
+Klarabergsgatan 56-64|3,Klarabergsgatan 56-64|1,0.0023149847984313965,6,0.996244490146637,0.9985594749450684,Klarabergsgatan 56-64,5,7,True
+Klarabergsgatan 56-64|4,Klarabergsgatan 56-64|1,0.0010613799095153809,6,0.9972931146621704,0.9983544945716858,Klarabergsgatan 56-64,5,7,True
+Klarabergsgatan 56-64|5,Klarabergsgatan 56-64|4,0.005158483982086182,6,0.9926498532295227,0.9978083372116089,Klarabergsgatan 56-64,4,5,True
+Klarabergsgatan 56-64|6,Klarabergsgatan 56-64|1,0.003316938877105713,6,0.9939616918563843,0.99727863073349,Klarabergsgatan 56-64,3,7,True
+Kontoristvägen 62-84|6,Kontoristvägen 62-84|5,0.001063704490661621,10,0.9946979284286499,0.9957616329193115,Kontoristvägen 62-84,3,1,True
+Korpmossevägen 37-69|2,Korpmossevägen 37-69|7,0.0002816319465637207,8,0.9969096779823303,0.997191309928894,Korpmossevägen 37-69,3,3,True
+Korpmossevägen 37-69|4,Korpmossevägen 37-69|1,0.004936516284942627,8,0.9927860498428345,0.9977225661277771,Korpmossevägen 37-69,1,3,True
+Korpmossevägen 37-69|6,Korpmossevägen 37-69|7,0.002756774425506592,8,0.9956796169281006,0.9984363913536072,Korpmossevägen 37-69,1,3,True
+Korpmossevägen 37-69|7,Korpmossevägen 37-69|8,0.0009691715240478516,8,0.9970414638519287,0.9980106353759766,Korpmossevägen 37-69,3,3,True
+Korpmossevägen 37-69|8,Korpmossevägen 37-69|7,0.0006931424140930176,8,0.9965333342552185,0.9972264766693115,Korpmossevägen 37-69,3,3,True
+Kristalltorget|2,Kristalltorget|3,0.0004591941833496094,4,0.9974625110626221,0.9979217052459717,Kristalltorget,3,5,True
+Kristinebergs slottspark|3,Kristinebergs slottspark|2,0.0016326308250427246,5,0.9937825202941895,0.9954151511192322,Kristinebergs slottspark,15,15,True
+Kungstensgatan|13,Kungstensgatan|14,0.00035178661346435547,5,0.9986041784286499,0.9989559650421143,Kungstensgatan,5,6,True
+Kungstensgatan|15,Kungstensgatan|11,0.00167161226272583,5,0.9958646297454834,0.9975362420082092,Kungstensgatan,2,7,True
+Kungsträdgården|1,Kungsträdgården|2,0.00014770030975341797,4,0.9992009997367859,0.9993487000465393,Kungsträdgården,12,10,True
+Kungsträdgården|2,Kungsträdgården|4,0.0001976490020751953,4,0.9992654323577881,0.9994630813598633,Kungsträdgården,10,12,True
+Kungsträdgården|3,Kungsträdgården|4,0.001594841480255127,4,0.99733567237854,0.9989305138587952,Kungsträdgården,12,12,True
+Kungsträdgården|3,Kungsträdgården|1,1.8417835235595703e-05,4,0.9995834231376648,0.9996018409729004,Kungsträdgården,12,12,True
+Kvarnhagsplan 118|1,Kvarnhagsplan 118|3,0.001858830451965332,6,0.9955265522003174,0.9973853826522827,Kvarnhagsplan 118,6,6,True
+Kvarnhagsplan 118|5,Kvarnhagsplan 118|6,0.002065896987915039,6,0.9954299926757812,0.9974958896636963,Kvarnhagsplan 118,7,7,True
+Kvarnhagsplan 118|6,Kvarnhagsplan 118|3,0.0010398030281066895,6,0.9967142939567566,0.9977540969848633,Kvarnhagsplan 118,7,6,True
+Kyrkogårdsvägen|4,Kyrkogårdsvägen|1,0.006536960601806641,8,0.9839050769805908,0.9904420375823975,Kyrkogårdsvägen,1,1,True
+Kyrkogårdsvägen|6,Kyrkogårdsvägen|8,0.010562896728515625,8,0.9870548248291016,0.9976177215576172,Kyrkogårdsvägen,1,1,True
+Kyrkogårdsvägen|8,Kyrkogårdsvägen|6,0.0059465765953063965,8,0.9894940853118896,0.995440661907196,Kyrkogårdsvägen,1,1,True
+Lidköpingsvägen 50|2,Lidköpingsvägen 50|1,9.465217590332031e-05,2,0.9985859394073486,0.998680591583252,Lidköpingsvägen 50,5,5,True
+Lindbodavägen 55 / Riastigen 2|1,Lindbodavägen 55 / Riastigen 2|2,0.0001214146614074707,2,0.9933691024780273,0.9934905171394348,Lindbodavägen 55 / Riastigen 2,4,4,True
+Lindhagensgatan 70 mittrefug|1,Lindhagensgatan 70 mittrefug|2,0.006067752838134766,2,0.9887717962265015,0.9948395490646362,Lindhagensgatan 70 mittrefug,8,8,True
+Lingvägen 15-18/ olympiaplan|9,Lingvägen 15-18/ olympiaplan|8,0.005253791809082031,3,0.9810210466384888,0.9862748384475708,Lingvägen 15-18/ olympiaplan,2,1,True
+Londonviadukten|8,Londonviadukten|10,0.00011056661605834961,6,0.9976813793182373,0.9977919459342957,Londonviadukten,1,5,True
+Londonviadukten|9,Londonviadukten|11,7.456541061401367e-05,6,0.9983320236206055,0.9984065890312195,Londonviadukten,5,5,True
+Loviselundsvägen 29-31|4,Loviselundsvägen 29-31|5,0.00039649009704589844,5,0.9965168237686157,0.9969133138656616,Loviselundsvägen 29-31,8,7,True
+Loviselundsvägen 29-31|5,Loviselundsvägen 29-31|4,4.76837158203125e-05,5,0.9964008331298828,0.9964485168457031,Loviselundsvägen 29-31,7,8,True
+Malmskillnadsbron|1,Malmskillnadsbron|3,0.0026949644088745117,9,0.9953769445419312,0.9980719089508057,Malmskillnadsbron,2,3,True
+Malmskillnadsbron|2,Malmskillnadsbron|7,3.9637088775634766e-05,9,0.9982220530509949,0.9982616901397705,Malmskillnadsbron,2,3,True
+Malmskillnadsbron|3,Malmskillnadsbron|7,0.0016372203826904297,9,0.9964886903762817,0.9981259107589722,Malmskillnadsbron,3,3,True
+Malmskillnadsbron|4,Malmskillnadsbron|9,0.0012205243110656738,9,0.9979539513587952,0.9991744756698608,Malmskillnadsbron,2,1,True
+Malmskillnadsbron|6,Malmskillnadsbron|3,7.528066635131836e-05,9,0.9975703358650208,0.9976456165313721,Malmskillnadsbron,1,3,True
+Malmskillnadsbron|7,Malmskillnadsbron|2,7.855892181396484e-05,9,0.9984593391418457,0.9985378980636597,Malmskillnadsbron,3,2,True
+Malmskillnadsbron|8,Malmskillnadsbron|3,0.00010502338409423828,9,0.997930645942688,0.9980356693267822,Malmskillnadsbron,1,3,True
+Malmskillnadsgatan|5,Malmskillnadsgatan|2,0.0019728541374206543,5,0.9974237680435181,0.9993966221809387,Malmskillnadsgatan,1,1,True
+Malmskillnadsgatan|8,Malmskillnadsgatan|5,0.0009542107582092285,5,0.99826979637146,0.9992240071296692,Malmskillnadsgatan,2,1,True
+Malmskillnadsgatan|9,Malmskillnadsgatan|2,0.0006406307220458984,5,0.9983397722244263,0.9989804029464722,Malmskillnadsgatan,1,1,True
+Malongenparken|4,Malongenparken|5,0.00016516447067260742,8,0.9983430504798889,0.9985082149505615,Malongenparken,7,7,True
+Malongenparken|7,Malongenparken|5,0.0008246898651123047,8,0.9956873655319214,0.9965120553970337,Malongenparken,7,7,True
+Medaljonggatan|13,Medaljonggatan|8,0.00013840198516845703,15,0.9987055063247681,0.9988439083099365,Medaljonggatan,13,15,True
+Medaljonggatan|2,Medaljonggatan|4,0.0021420717239379883,15,0.9947108030319214,0.9968528747558594,Medaljonggatan,17,17,True
+Medaljonggatan|2,Medaljonggatan|4,0.00419086217880249,15,0.9939594864845276,0.9981503486633301,Medaljonggatan,17,17,True
+Medaljonggatan|3,Medaljonggatan|4,6.127357482910156e-05,15,0.9973786473274231,0.9974399209022522,Medaljonggatan,15,17,True
+Medaljonggatan|5,Medaljonggatan|7,0.0005409717559814453,15,0.9985883235931396,0.9991292953491211,Medaljonggatan,16,17,True
+Medaljonggatan|7,Medaljonggatan|11,0.00010538101196289062,15,0.9990413188934326,0.9991466999053955,Medaljonggatan,17,10,True
+Medaljonggatan|8,Medaljonggatan|11,0.00017720460891723633,15,0.9988958239555359,0.9990730285644531,Medaljonggatan,15,10,True
+Medevigatan 14|1,Medevigatan 14|3,0.0002180933952331543,4,0.9988057613372803,0.9990238547325134,Medevigatan 14,7,8,True
+Medevigatan 14|2,Medevigatan 14|3,0.005267322063446045,4,0.9918078780174255,0.9970752000808716,Medevigatan 14,7,8,True
+Medevigatan 14|3,Medevigatan 14|2,0.0002269148826599121,4,0.9992194771766663,0.9994463920593262,Medevigatan 14,8,7,True
+Medevigatan 14|4,Medevigatan 14|3,0.002681553363800049,4,0.9908682107925415,0.9935497641563416,Medevigatan 14,7,8,True
+Multrågatan/Multråtorg|1,Multrågatan/Multråtorg|2,0.004189908504486084,6,0.9936645030975342,0.9978544116020203,Multrågatan/Multråtorg,22,21,True
+Multrågatan/Multråtorg|2,Multrågatan/Multråtorg|1,0.0017200708389282227,6,0.9955620169639587,0.997282087802887,Multrågatan/Multråtorg,21,22,True
+Multrågatan/Multråtorg|2,Multrågatan/Multråtorg|1,0.0004945993423461914,6,0.9969412088394165,0.9974358081817627,Multrågatan/Multråtorg,21,22,True
+Multrågatan/Multråtorg|3,Multrågatan/Multråtorg|2,0.001703500747680664,6,0.9961838126182556,0.9978873133659363,Multrågatan/Multråtorg,20,21,True
+Multrågatan/Multråtorg|3,Multrågatan/Multråtorg|2,0.0022302865982055664,6,0.995066225528717,0.9972965121269226,Multrågatan/Multråtorg,20,21,True
+Mäster Samulesgatan|1,Mäster Samulesgatan|2,0.001803278923034668,2,0.9950774908065796,0.9968807697296143,Mäster Samulesgatan,4,4,True
+Narvavägen|1,Narvavägen|12,0.0016174912452697754,21,0.9919800758361816,0.9935975670814514,Narvavägen,12,4,True
+Narvavägen|10,Narvavägen|6,0.0007456541061401367,21,0.9978295564651489,0.9985752105712891,Narvavägen,3,3,True
+Narvavägen|13,Narvavägen|2,0.0002970695495605469,21,0.9986978769302368,0.9989949464797974,Narvavägen,5,6,True
+Narvavägen|15,Narvavägen|12,1.33514404296875e-05,21,0.9990962743759155,0.9991096258163452,Narvavägen,4,4,True
+Narvavägen|16,Narvavägen|13,0.0005538463592529297,21,0.9986988306045532,0.9992526769638062,Narvavägen,4,5,True
+Narvavägen|17,Narvavägen|18,0.0003662109375,21,0.9988185167312622,0.9991847276687622,Narvavägen,9,12,True
+Narvavägen|18,Narvavägen|19,0.00043773651123046875,21,0.9989791512489319,0.9994168877601624,Narvavägen,12,12,True
+Narvavägen|19,Narvavägen|14,5.8650970458984375e-05,21,0.9987456202507019,0.9988042712211609,Narvavägen,12,3,True
+Narvavägen|2,Narvavägen|3,0.00010728836059570312,21,0.998708963394165,0.9988162517547607,Narvavägen,6,3,True
+Narvavägen|20,Narvavägen|17,0.001277327537536621,21,0.9977037906646729,0.9989811182022095,Narvavägen,2,9,True
+Narvavägen|4,Narvavägen|17,0.00021797418594360352,21,0.9984440207481384,0.998661994934082,Narvavägen,4,9,True
+Narvavägen|5,Narvavägen|14,0.002149045467376709,21,0.9959316253662109,0.9980806708335876,Narvavägen,4,3,True
+Narvavägen|9,Narvavägen|15,0.0069473981857299805,21,0.9898146390914917,0.9967620372772217,Narvavägen,1,4,True
+Norra Stationsgatan 69-75|10,Norra Stationsgatan 69-75|9,0.0007013082504272461,13,0.9977295398712158,0.9984308481216431,Norra Stationsgatan 69-75,10,11,True
+Norra Stationsgatan 69-75|12,Norra Stationsgatan 69-75|2,9.554624557495117e-05,13,0.9996203184127808,0.9997158646583557,Norra Stationsgatan 69-75,9,12,True
+Norra Stationsgatan 69-75|13,Norra Stationsgatan 69-75|8,0.0011952519416809082,13,0.9967312216758728,0.9979264736175537,Norra Stationsgatan 69-75,13,12,True
+Norra Stationsgatan 69-75|13,Norra Stationsgatan 69-75|9,0.0001112222671508789,13,0.999610185623169,0.9997214078903198,Norra Stationsgatan 69-75,13,11,True
+Norra Stationsgatan 69-75|2,Norra Stationsgatan 69-75|6,0.00027048587799072266,13,0.9990031719207764,0.9992736577987671,Norra Stationsgatan 69-75,12,13,True
+Norra Stationsgatan 69-75|2,Norra Stationsgatan 69-75|13,0.00015228986740112305,13,0.9977777600288391,0.9979300498962402,Norra Stationsgatan 69-75,12,13,True
+Norra Stationsgatan 69-75|3,Norra Stationsgatan 69-75|8,0.0008521080017089844,13,0.9970192909240723,0.9978713989257812,Norra Stationsgatan 69-75,9,12,True
+Norra Stationsgatan 69-75|4,Norra Stationsgatan 69-75|11,1.1086463928222656e-05,13,0.9996107816696167,0.9996218681335449,Norra Stationsgatan 69-75,12,12,True
+Norra Stationsgatan 69-75|6,Norra Stationsgatan 69-75|10,0.0019420385360717773,13,0.9962155818939209,0.9981576204299927,Norra Stationsgatan 69-75,13,10,True
+Norra Stationsgatan 69-75|6,Norra Stationsgatan 69-75|7,0.0031746625900268555,13,0.9951821565628052,0.998356819152832,Norra Stationsgatan 69-75,13,11,True
+Norra Stationsgatan 69-75|7,Norra Stationsgatan 69-75|8,0.0001679062843322754,13,0.9993377923965454,0.9995056986808777,Norra Stationsgatan 69-75,11,12,True
+Norra Stationsgatan 69-75|8,Norra Stationsgatan 69-75|11,0.001359105110168457,13,0.9971635937690735,0.9985226988792419,Norra Stationsgatan 69-75,12,12,True
+Norra Stationsgatan 69-75|9,Norra Stationsgatan 69-75|7,0.0004063844680786133,13,0.9981074333190918,0.9985138177871704,Norra Stationsgatan 69-75,11,11,True
+Nybrogatan 73|2,Nybrogatan 73|1,0.0036652088165283203,2,0.994887113571167,0.9985523223876953,Nybrogatan 73,7,6,True
+Nyängsvägen 27-33|1,Nyängsvägen 27-33|4,0.0003447532653808594,4,0.9909208416938782,0.991265594959259,Nyängsvägen 27-33,6,6,True
+Nyängsvägen 27-33|2,Nyängsvägen 27-33|1,0.0017685890197753906,4,0.9946023225784302,0.9963709115982056,Nyängsvägen 27-33,6,6,True
+Nyängsvägen 27-33|3,Nyängsvägen 27-33|2,0.0014451146125793457,4,0.9937267899513245,0.9951719045639038,Nyängsvägen 27-33,6,6,True
+Observatorielunden damm|2,Observatorielunden damm|1,0.00045603513717651367,2,0.9980279803276062,0.9984840154647827,Observatorielunden damm,14,9,True
+Olof Gjödingsgatan 1-11|1,Olof Gjödingsgatan 1-11|5,0.0011619925498962402,8,0.9977787733078003,0.9989407658576965,Olof Gjödingsgatan 1-11,7,9,True
+Olof Gjödingsgatan 1-11|2,Olof Gjödingsgatan 1-11|4,0.0028302669525146484,8,0.9940259456634521,0.9968562126159668,Olof Gjödingsgatan 1-11,9,8,True
+Olof Gjödingsgatan 1-11|5,Olof Gjödingsgatan 1-11|8,0.0011147260665893555,8,0.9968380928039551,0.9979528188705444,Olof Gjödingsgatan 1-11,9,6,True
+Olof Gjödingsgatan 1-11|6,Olof Gjödingsgatan 1-11|5,0.000357210636138916,8,0.9986820816993713,0.9990392923355103,Olof Gjödingsgatan 1-11,9,9,True
+Olof Gjödingsgatan 1-11|7,Olof Gjödingsgatan 1-11|6,0.000610649585723877,8,0.9984313249588013,0.9990419745445251,Olof Gjödingsgatan 1-11,7,9,True
+Olof Gjödingsgatan 1-11|8,Olof Gjödingsgatan 1-11|5,0.0001927018165588379,8,0.9989196062088013,0.9991123080253601,Olof Gjödingsgatan 1-11,6,9,True
+Olovslund|1,Olovslund|2,6.985664367675781e-05,11,0.9989110231399536,0.9989808797836304,Olovslund,13,12,True
+Olovslund|10,Olovslund|4,0.0005454421043395996,11,0.9945077300071716,0.9950531721115112,Olovslund,12,12,True
+Olovslund|2,Olovslund|1,0.0018108487129211426,11,0.9967456459999084,0.9985564947128296,Olovslund,12,13,True
+Olovslund|4,Olovslund|5,0.0013700127601623535,11,0.9961658120155334,0.9975358247756958,Olovslund,12,10,True
+Olovslund|7,Olovslund|2,0.0006136894226074219,11,0.9958035945892334,0.9964172840118408,Olovslund,12,12,True
+Olovslund|8,Olovslund|7,0.003146946430206299,11,0.9933980107307434,0.9965449571609497,Olovslund,12,12,True
+Pepparvägen 81|1,Pepparvägen 81|2,0.00995945930480957,2,0.9869734048843384,0.996932864189148,Pepparvägen 81,1,1,True
+Per Lindeströms väg 64|1,Per Lindeströms väg 64|2,0.0003380775451660156,2,0.9986190795898438,0.9989571571350098,Per Lindeströms väg 64,5,5,True
+Per Lindeströms väg 64|2,Per Lindeströms väg 64|1,0.0001964569091796875,2,0.9983651638031006,0.9985616207122803,Per Lindeströms väg 64,5,5,True
+Pilvingegatan 8-10|3,Pilvingegatan 8-10|4,0.006171107292175293,5,0.98699951171875,0.9931706190109253,Pilvingegatan 8-10,4,4,True
+Plantskolevägen 2-6 och 38|1,Plantskolevägen 2-6 och 38|4,0.0005635619163513184,4,0.9969261288642883,0.9974896907806396,Plantskolevägen 2-6 och 38,5,5,True
+Plantskolevägen 2-6 och 38|2,Plantskolevägen 2-6 och 38|4,0.00490647554397583,4,0.9887478351593018,0.9936543107032776,Plantskolevägen 2-6 och 38,4,5,True
+Prästgårdsstråket / Solberga hagväg|1,Prästgårdsstråket / Solberga hagväg|5,0.016714036464691162,6,0.971799373626709,0.9885134100914001,Prästgårdsstråket / Solberga hagväg,1,1,True
+Prästgårdsstråket / Solberga hagväg|2,Prästgårdsstråket / Solberga hagväg|1,0.0031350255012512207,6,0.9860231280326843,0.9891581535339355,Prästgårdsstråket / Solberga hagväg,1,1,True
+Rissneleden|10,Rissneleden|7,5.4836273193359375e-05,47,0.9990248084068298,0.9990796446800232,Rissneleden,4,4,True
+Rissneleden|11,Rissneleden|9,0.0011014342308044434,47,0.9978749752044678,0.9989764094352722,Rissneleden,4,4,True
+Rissneleden|12,Rissneleden|17,0.00030726194381713867,47,0.9988290667533875,0.9991363286972046,Rissneleden,4,2,True
+Rissneleden|15,Rissneleden|33,0.0020040273666381836,47,0.9962402582168579,0.9982442855834961,Rissneleden,4,4,True
+Rissneleden|16,Rissneleden|22,0.011474967002868652,47,0.9776437282562256,0.9891186952590942,Rissneleden,2,2,True
+Rissneleden|17,Rissneleden|15,0.0005529522895812988,47,0.9987358450889587,0.99928879737854,Rissneleden,2,4,True
+Rissneleden|18,Rissneleden|19,0.0019870996475219727,47,0.9943276047706604,0.9963147044181824,Rissneleden,3,3,True
+Rissneleden|19,Rissneleden|45,5.8531761169433594e-05,47,0.9984685778617859,0.9985271096229553,Rissneleden,3,6,True
+Rissneleden|20,Rissneleden|36,0.0013224482536315918,47,0.9979069828987122,0.9992294311523438,Rissneleden,2,3,True
+Rissneleden|22,Rissneleden|50,0.007678687572479248,47,0.9907475709915161,0.9984262585639954,Rissneleden,2,3,True
+Rissneleden|23,Rissneleden|45,0.0013833045959472656,47,0.9973531365394592,0.9987364411354065,Rissneleden,2,6,True
+Rissneleden|27,Rissneleden|40,0.0015619397163391113,47,0.9971050024032593,0.9986669421195984,Rissneleden,4,4,True
+Rissneleden|28,Rissneleden|37,0.013346195220947266,47,0.9775298833847046,0.9908760786056519,Rissneleden,3,4,True
+Rissneleden|29,Rissneleden|35,0.0008347034454345703,47,0.9980931878089905,0.998927891254425,Rissneleden,3,4,True
+Rissneleden|3,Rissneleden|40,0.00037032365798950195,47,0.9981738328933716,0.9985441565513611,Rissneleden,4,4,True
+Rissneleden|31,Rissneleden|27,6.002187728881836e-05,47,0.9988874197006226,0.9989474415779114,Rissneleden,4,4,True
+Rissneleden|32,Rissneleden|9,0.0017178058624267578,47,0.996595025062561,0.9983128309249878,Rissneleden,3,4,True
+Rissneleden|33,Rissneleden|31,0.004027128219604492,47,0.993484616279602,0.9975117444992065,Rissneleden,4,4,True
+Rissneleden|34,Rissneleden|10,0.0002810955047607422,47,0.998887836933136,0.9991689324378967,Rissneleden,3,4,True
+Rissneleden|36,Rissneleden|24,0.0016178488731384277,47,0.9939782023429871,0.9955960512161255,Rissneleden,3,3,True
+Rissneleden|37,Rissneleden|35,0.0008723735809326172,47,0.9981306195259094,0.999002993106842,Rissneleden,4,4,True
+Rissneleden|38,Rissneleden|30,0.0005150437355041504,47,0.9988292455673218,0.9993442893028259,Rissneleden,3,3,True
+Rissneleden|4,Rissneleden|35,0.0004947185516357422,47,0.9983370304107666,0.9988317489624023,Rissneleden,5,4,True
+Rissneleden|40,Rissneleden|25,0.0020979642868041992,47,0.9974095821380615,0.9995075464248657,Rissneleden,4,3,True
+Rissneleden|43,Rissneleden|45,0.0042459964752197266,47,0.994448184967041,0.9986941814422607,Rissneleden,3,6,True
+Rissneleden|44,Rissneleden|26,0.002621173858642578,47,0.9947508573532104,0.997372031211853,Rissneleden,1,3,True
+Rissneleden|45,Rissneleden|40,0.015675067901611328,47,0.9790977239608765,0.9947727918624878,Rissneleden,6,4,True
+Rissneleden|5,Rissneleden|11,0.0004884600639343262,47,0.9984756112098694,0.9989640712738037,Rissneleden,4,4,True
+Rissneleden|50,Rissneleden|7,0.0011717677116394043,47,0.9971579313278198,0.9983296990394592,Rissneleden,3,4,True
+Rissneleden|6,Rissneleden|18,0.0014466047286987305,47,0.996581494808197,0.9980280995368958,Rissneleden,3,3,True
+Rissneleden|7,Rissneleden|8,0.0032809972763061523,47,0.9908591508865356,0.9941401481628418,Rissneleden,4,3,True
+Rågsvedsvägen 51|1,Rågsvedsvägen 51|4,0.010600566864013672,4,0.9842088222503662,0.9948093891143799,Rågsvedsvägen 51,3,5,True
+Rödabergsgatan 10-12|1,Rödabergsgatan 10-12|2,0.0012915730476379395,3,0.9952340722084045,0.9965256452560425,Rödabergsgatan 10-12,7,8,True
+Rödabergsgatan 10-12|2,Rödabergsgatan 10-12|1,0.0008866190910339355,3,0.9918789863586426,0.9927656054496765,Rödabergsgatan 10-12,8,7,True
+Rödabergsgatan 10-12|3,Rödabergsgatan 10-12|1,0.013094484806060791,3,0.9843817353248596,0.9974762201309204,Rödabergsgatan 10-12,9,7,True
+Rödabergsgatan 6-9B Extra bevattning|1,Rödabergsgatan 6-9B Extra bevattning|6,0.002071976661682129,6,0.9939379692077637,0.9960099458694458,Rödabergsgatan 6-9B Extra bevattning,3,2,True
+Rödabergsgatan 6-9B Extra bevattning|4,Rödabergsgatan 6-9B Extra bevattning|5,0.003441154956817627,6,0.9952979683876038,0.9987391233444214,Rödabergsgatan 6-9B Extra bevattning,2,3,True
+Rödabergsgatan 6-9B Extra bevattning|5,Rödabergsgatan 6-9B Extra bevattning|3,3.6597251892089844e-05,6,0.9988137483596802,0.9988503456115723,Rödabergsgatan 6-9B Extra bevattning,3,3,True
+Rödabergsgatan 6-9B Extra bevattning|6,Rödabergsgatan 6-9B Extra bevattning|1,0.0015141963958740234,6,0.9969289302825928,0.9984431266784668,Rödabergsgatan 6-9B Extra bevattning,2,3,True
+Rödabergsgatan|2,Rödabergsgatan|3,0.0014109611511230469,4,0.9965951442718506,0.9980061054229736,Rödabergsgatan,13,13,True
+Rödabergsgatan|3,Rödabergsgatan|2,0.00036334991455078125,4,0.9988821744918823,0.9992455244064331,Rödabergsgatan,13,13,True
+Sankt Eriksgatan 79-87|1,Sankt Eriksgatan 79-87|2,0.0012133121490478516,9,0.9968021512031555,0.9980154633522034,Sankt Eriksgatan 79-87,6,5,True
+Sankt Eriksgatan 79-87|2,Sankt Eriksgatan 79-87|5,0.00029969215393066406,9,0.9985734224319458,0.9988731145858765,Sankt Eriksgatan 79-87,5,7,True
+Sankt Eriksgatan 79-87|3,Sankt Eriksgatan 79-87|1,0.0004531741142272949,9,0.9990258812904358,0.9994790554046631,Sankt Eriksgatan 79-87,6,6,True
+Sankt Eriksgatan 79-87|5,Sankt Eriksgatan 79-87|4,0.0013995766639709473,9,0.9972454309463501,0.998645007610321,Sankt Eriksgatan 79-87,7,4,True
+Sankt Eriksgatan 79-87|6,Sankt Eriksgatan 79-87|5,0.00332486629486084,9,0.9951976537704468,0.9985225200653076,Sankt Eriksgatan 79-87,7,7,True
+Sankt Eriksgatan 79-87|7,Sankt Eriksgatan 79-87|6,8.565187454223633e-05,9,0.9978885650634766,0.9979742169380188,Sankt Eriksgatan 79-87,17,7,True
+Sankt Eriksgatan 79-87|7,Sankt Eriksgatan 79-87|9,0.001775503158569336,9,0.9950640797615051,0.9968395829200745,Sankt Eriksgatan 79-87,17,12,True
+Sankt Eriksgatan 79-87|7,Sankt Eriksgatan 79-87|1,0.0012014508247375488,9,0.9962702393531799,0.9974716901779175,Sankt Eriksgatan 79-87,17,6,True
+Sankt Eriksgatan 79-87|8,Sankt Eriksgatan 79-87|9,0.0012870430946350098,9,0.9980253577232361,0.9993124008178711,Sankt Eriksgatan 79-87,12,12,True
+Sankt Eriksgatan 79-87|9,Sankt Eriksgatan 79-87|2,0.0013191699981689453,9,0.9974550008773804,0.9987741708755493,Sankt Eriksgatan 79-87,12,5,True
+Sankt Eriksgatan 89|1,Sankt Eriksgatan 89|3,0.003461003303527832,3,0.9924581050872803,0.9959191083908081,Sankt Eriksgatan 89,10,6,True
+Sankt Eriksgatan 89|3,Sankt Eriksgatan 89|1,0.009909212589263916,3,0.9875810742378235,0.9974902868270874,Sankt Eriksgatan 89,6,10,True
+Sankt Eriksgatan 96-108|1,Sankt Eriksgatan 96-108|2,4.8279762268066406e-05,15,0.9993040561676025,0.9993523359298706,Sankt Eriksgatan 96-108,7,9,True
+Sankt Eriksgatan 96-108|10,Sankt Eriksgatan 96-108|6,0.00026679039001464844,15,0.9988884925842285,0.9991552829742432,Sankt Eriksgatan 96-108,7,7,True
+Sankt Eriksgatan 96-108|11,Sankt Eriksgatan 96-108|3,0.0014408230781555176,15,0.9980113506317139,0.9994521737098694,Sankt Eriksgatan 96-108,8,7,True
+Sankt Eriksgatan 96-108|12,Sankt Eriksgatan 96-108|10,0.0019197463989257812,15,0.9958164691925049,0.9977362155914307,Sankt Eriksgatan 96-108,7,7,True
+Sankt Eriksgatan 96-108|13,Sankt Eriksgatan 96-108|10,0.00013130903244018555,15,0.999104380607605,0.9992356896400452,Sankt Eriksgatan 96-108,10,7,True
+Sankt Eriksgatan 96-108|14,Sankt Eriksgatan 96-108|8,0.0011048316955566406,15,0.9920960068702698,0.9932008385658264,Sankt Eriksgatan 96-108,9,8,True
+Sankt Eriksgatan 96-108|2,Sankt Eriksgatan 96-108|12,1.3113021850585938e-05,15,0.9984605312347412,0.9984736442565918,Sankt Eriksgatan 96-108,9,7,True
+Sankt Eriksgatan 96-108|3,Sankt Eriksgatan 96-108|2,0.0034914612770080566,15,0.9945327639579773,0.9980242252349854,Sankt Eriksgatan 96-108,7,9,True
+Sankt Eriksgatan 96-108|4,Sankt Eriksgatan 96-108|3,0.0005723834037780762,15,0.998320996761322,0.9988933801651001,Sankt Eriksgatan 96-108,4,7,True
+Sankt Eriksgatan 96-108|5,Sankt Eriksgatan 96-108|4,0.0001741647720336914,15,0.9992107152938843,0.999384880065918,Sankt Eriksgatan 96-108,5,4,True
+Sankt Eriksgatan 96-108|6,Sankt Eriksgatan 96-108|5,0.00025779008865356445,15,0.9986573457717896,0.9989151358604431,Sankt Eriksgatan 96-108,7,5,True
+Sankt Eriksgatan 96-108|7,Sankt Eriksgatan 96-108|15,0.0003618597984313965,15,0.9991602301597595,0.9995220899581909,Sankt Eriksgatan 96-108,8,6,True
+Sankt Eriksgatan 96-108|8,Sankt Eriksgatan 96-108|13,0.0036453604698181152,15,0.9942401051521301,0.9978854656219482,Sankt Eriksgatan 96-108,8,10,True
+Sankt Eriksgatan 96-108|9,Sankt Eriksgatan 96-108|15,0.003793954849243164,15,0.9940991401672363,0.9978930950164795,Sankt Eriksgatan 96-108,9,6,True
+Sankt Göransparken E2|11,Sankt Göransparken E2|9,0.0014362335205078125,16,0.9965344667434692,0.997970700263977,Sankt Göransparken E2,29,30,True
+Sankt Göransparken E2|11,Sankt Göransparken E2|9,0.0007971525192260742,16,0.9976627826690674,0.9984599351882935,Sankt Göransparken E2,29,30,True
+Sankt Göransparken E2|11,Sankt Göransparken E2|9,0.0007970333099365234,16,0.9962248802185059,0.9970219135284424,Sankt Göransparken E2,29,30,True
+Sankt Göransparken E2|12,Sankt Göransparken E2|13,0.0016711950302124023,16,0.9968116879463196,0.998482882976532,Sankt Göransparken E2,26,25,True
+Sankt Göransparken E2|13,Sankt Göransparken E2|4,6.002187728881836e-05,16,0.9938936233520508,0.9939536452293396,Sankt Göransparken E2,25,23,True
+Sankt Göransparken E2|13,Sankt Göransparken E2|14,0.0030066967010498047,16,0.9929118156433105,0.9959185123443604,Sankt Göransparken E2,25,29,True
+Sankt Göransparken E2|13,Sankt Göransparken E2|12,0.0018709301948547363,16,0.9956156015396118,0.9974865317344666,Sankt Göransparken E2,25,26,True
+Sankt Göransparken E2|13,Sankt Göransparken E2|12,0.0003254413604736328,16,0.9973591566085815,0.9976845979690552,Sankt Göransparken E2,25,26,True
+Sankt Göransparken E2|14,Sankt Göransparken E2|13,0.010263800621032715,16,0.9869346022605896,0.9971984028816223,Sankt Göransparken E2,29,25,True
+Sankt Göransparken E2|15,Sankt Göransparken E2|17,0.016479671001434326,16,0.9713423252105713,0.9878219962120056,Sankt Göransparken E2,24,29,True
+Sankt Göransparken E2|15,Sankt Göransparken E2|17,0.0021965503692626953,16,0.9918003082275391,0.9939968585968018,Sankt Göransparken E2,24,29,True
+Sankt Göransparken E2|15,Sankt Göransparken E2|17,0.019363880157470703,16,0.9705485105514526,0.9899123907089233,Sankt Göransparken E2,24,29,True
+Sankt Göransparken E2|15,Sankt Göransparken E2|17,0.003359854221343994,16,0.9929093718528748,0.9962692260742188,Sankt Göransparken E2,24,29,True
+Sankt Göransparken E2|16,Sankt Göransparken E2|15,0.002936065196990967,16,0.9931721687316895,0.9961082339286804,Sankt Göransparken E2,27,24,True
+Sankt Göransparken E2|16,Sankt Göransparken E2|17,0.002840757369995117,16,0.9936522245407104,0.9964929819107056,Sankt Göransparken E2,27,29,True
+Sankt Göransparken E2|17,Sankt Göransparken E2|15,0.001762986183166504,16,0.99660325050354,0.9983662366867065,Sankt Göransparken E2,29,24,True
+Sankt Göransparken E2|17,Sankt Göransparken E2|15,0.0007621049880981445,16,0.9981542825698853,0.9989163875579834,Sankt Göransparken E2,29,24,True
+Sankt Göransparken E2|18,Sankt Göransparken E2|10,0.0022326111793518066,16,0.9902639985084534,0.9924966096878052,Sankt Göransparken E2,38,33,True
+Sankt Göransparken E2|18,Sankt Göransparken E2|9,0.0010416507720947266,16,0.9962068796157837,0.9972485303878784,Sankt Göransparken E2,38,30,True
+Sankt Göransparken E2|4,Sankt Göransparken E2|5,0.00047779083251953125,16,0.9932037591934204,0.9936815500259399,Sankt Göransparken E2,23,24,True
+Sankt Göransparken E2|4,Sankt Göransparken E2|5,0.001831650733947754,16,0.9963981509208679,0.9982298016548157,Sankt Göransparken E2,23,24,True
+Sankt Göransparken E2|5,Sankt Göransparken E2|9,0.00446850061416626,16,0.9913070201873779,0.9957755208015442,Sankt Göransparken E2,24,30,True
+Sankt Göransparken E2|5,Sankt Göransparken E2|4,0.0004862546920776367,16,0.9966281652450562,0.9971144199371338,Sankt Göransparken E2,24,23,True
+Sankt Göransparken E2|6,Sankt Göransparken E2|8,0.0013729333877563477,16,0.9970488548278809,0.9984217882156372,Sankt Göransparken E2,28,30,True
+Sankt Göransparken E2|6,Sankt Göransparken E2|7,0.0031972527503967285,16,0.9944690465927124,0.9976662993431091,Sankt Göransparken E2,28,26,True
+Sankt Göransparken E2|6,Sankt Göransparken E2|7,0.00039380788803100586,16,0.9968198537826538,0.9972136616706848,Sankt Göransparken E2,28,26,True
+Sankt Göransparken E2|6,Sankt Göransparken E2|7,0.0014722347259521484,16,0.9970773458480835,0.9985495805740356,Sankt Göransparken E2,28,26,True
+Sankt Göransparken E2|7,Sankt Göransparken E2|6,0.0023529529571533203,16,0.9945863485336304,0.9969393014907837,Sankt Göransparken E2,26,28,True
+Sankt Göransparken E2|7,Sankt Göransparken E2|8,0.0010804533958435059,16,0.9976727366447449,0.9987531900405884,Sankt Göransparken E2,26,30,True
+Sankt Göransparken E2|7,Sankt Göransparken E2|8,0.0004996657371520996,16,0.997386634349823,0.9978863000869751,Sankt Göransparken E2,26,30,True
+Sankt Göransparken E2|8,Sankt Göransparken E2|6,0.0001195073127746582,16,0.9964658617973328,0.9965853691101074,Sankt Göransparken E2,30,28,True
+Sankt Göransparken E2|8,Sankt Göransparken E2|6,0.004229187965393066,16,0.9911431074142456,0.9953722953796387,Sankt Göransparken E2,30,28,True
+Sankt Göransparken E2|8,Sankt Göransparken E2|6,0.004337608814239502,16,0.9860974550247192,0.9904350638389587,Sankt Göransparken E2,30,28,True
+Sankt Göransparken E2|9,Sankt Göransparken E2|14,0.0017864704132080078,16,0.9938727617263794,0.9956592321395874,Sankt Göransparken E2,30,29,True
+Sankt Göransparken E2|9,Sankt Göransparken E2|14,0.00014710426330566406,16,0.998382568359375,0.9985296726226807,Sankt Göransparken E2,30,29,True
+Scheelegatan 36|2,Scheelegatan 36|1,0.0013047456741333008,6,0.9973502159118652,0.9986549615859985,Scheelegatan 36,8,6,True
+Scheelegatan 36|4,Scheelegatan 36|5,8.255243301391602e-05,6,0.9985296726226807,0.9986122250556946,Scheelegatan 36,7,7,True
+Scheelegatan 36|6,Scheelegatan 36|1,0.0013266205787658691,6,0.9981133937835693,0.9994400143623352,Scheelegatan 36,9,6,True
+Sergelgatan|2,Sergelgatan|1,0.0015960931777954102,2,0.9962443113327026,0.997840404510498,Sergelgatan,9,11,True
+Sergels torg 14-16|1,Sergels torg 14-16|3,0.0004044175148010254,6,0.9987137913703918,0.9991182088851929,Sergels torg 14-16,9,10,True
+Sergels torg 14-16|2,Sergels torg 14-16|1,0.0017266273498535156,6,0.9933028221130371,0.9950294494628906,Sergels torg 14-16,6,9,True
+Sergels torg 14-16|3,Sergels torg 14-16|2,0.00012248754501342773,6,0.9991067051887512,0.9992291927337646,Sergels torg 14-16,10,6,True
+Sergels torg 14-16|4,Sergels torg 14-16|5,0.0036401748657226562,6,0.9950565099716187,0.9986966848373413,Sergels torg 14-16,4,9,True
+Sergels torg 14-16|6,Sergels torg 14-16|3,0.00215303897857666,6,0.9956698417663574,0.9978228807449341,Sergels torg 14-16,6,10,True
+Sjövikstorg|1,Sjövikstorg|2,0.007942795753479004,2,0.9890257120132446,0.9969685077667236,Sjövikstorg,3,3,True
+Skrubba Malmväg|1,Skrubba Malmväg|10,0.0015929341316223145,10,0.997065007686615,0.9986579418182373,Skrubba Malmväg,4,3,True
+Skrubba Malmväg|10,Skrubba Malmväg|4,0.0006853938102722168,10,0.9984068870544434,0.9990922808647156,Skrubba Malmväg,3,5,True
+Skrubba Malmväg|3,Skrubba Malmväg|5,0.000947117805480957,10,0.9979385733604431,0.9988856911659241,Skrubba Malmväg,4,4,True
+Skrubba Malmväg|4,Skrubba Malmväg|8,0.0010439157485961914,10,0.9973406791687012,0.9983845949172974,Skrubba Malmväg,5,3,True
+Skrubba Malmväg|5,Skrubba Malmväg|6,0.0016734600067138672,10,0.9973512887954712,0.9990247488021851,Skrubba Malmväg,4,4,True
+Skrubba Malmväg|6,Skrubba Malmväg|9,0.00028389692306518555,10,0.9986969828605652,0.9989808797836304,Skrubba Malmväg,4,5,True
+Skrubba Malmväg|7,Skrubba Malmväg|9,0.000657200813293457,10,0.9984624981880188,0.9991196990013123,Skrubba Malmväg,5,5,True
+Skrubba Malmväg|9,Skrubba Malmväg|6,0.0006356239318847656,10,0.9987494945526123,0.9993851184844971,Skrubba Malmväg,5,4,True
+Slammertorp|1,Slammertorp|3,0.0002040863037109375,21,0.9993410706520081,0.999545156955719,Slammertorp,7,5,True
+Slammertorp|10,Slammertorp|1,0.0005505681037902832,21,0.9988791346549988,0.9994297027587891,Slammertorp,7,7,True
+Slammertorp|12,Slammertorp|10,0.00030857324600219727,21,0.9986278414726257,0.9989364147186279,Slammertorp,6,7,True
+Slammertorp|13,Slammertorp|10,0.0005040168762207031,21,0.998721718788147,0.9992257356643677,Slammertorp,6,7,True
+Slammertorp|2,Slammertorp|5,8.469820022583008e-05,21,0.9990860819816589,0.9991707801818848,Slammertorp,6,6,True
+Slammertorp|20,Slammertorp|21,0.0005605220794677734,21,0.9980268478393555,0.9985873699188232,Slammertorp,7,6,True
+Slammertorp|21,Slammertorp|20,0.0018971562385559082,21,0.9964672923088074,0.9983644485473633,Slammertorp,6,7,True
+Slammertorp|3,Slammertorp|1,0.000681757926940918,21,0.9969972372055054,0.9976789951324463,Slammertorp,5,7,True
+Slammertorp|4,Slammertorp|3,5.251169204711914e-05,21,0.9992572665214539,0.999309778213501,Slammertorp,6,5,True
+Slammertorp|7,Slammertorp|12,2.9087066650390625e-05,21,0.9993146657943726,0.999343752861023,Slammertorp,6,6,True
+Slammertorp|8,Slammertorp|1,4.887580871582031e-06,21,0.9993758201599121,0.9993807077407837,Slammertorp,4,7,True
+Slammertorp|9,Slammertorp|7,0.001065969467163086,21,0.9977933168411255,0.9988592863082886,Slammertorp,6,6,True
+Sockenplan|3,Sockenplan|4,0.0007802248001098633,6,0.9974036812782288,0.9981839060783386,Sockenplan,4,5,True
+Sofielundsplan|4,Sofielundsplan|5,0.00046432018280029297,7,0.9930616617202759,0.9935259819030762,Sofielundsplan,4,4,True
+Sofielundsplan|6,Sofielundsplan|4,0.0012290477752685547,7,0.9891887903213501,0.9904178380966187,Sofielundsplan,2,4,True
+Sofielundsplan|7,Sofielundsplan|3,3.8683414459228516e-05,7,0.992178738117218,0.9922174215316772,Sofielundsplan,7,4,True
+Sofielundsvägen 39|1,Sofielundsvägen 39|2,0.03993785381317139,2,0.9543876647949219,0.9943255186080933,Sofielundsvägen 39,1,5,True
+Sofielundsvägen|1,Sofielundsvägen|2,0.0010886192321777344,3,0.9973526000976562,0.998441219329834,Sofielundsvägen,1,1,True
+Sofielundsvägen|2,Sofielundsvägen|3,3.6656856536865234e-05,3,0.9972912073135376,0.9973278641700745,Sofielundsvägen,1,1,True
+Sofielundsvägen|3,Sofielundsvägen|2,0.0020759105682373047,3,0.996829628944397,0.9989055395126343,Sofielundsvägen,1,1,True
+Solnabron|4,Solnabron|3,0.0004082918167114258,4,0.9962124824523926,0.996620774269104,Solnabron,2,1,True
+Stora Ängby Alle|12,Stora Ängby Alle|4,0.0016914010047912598,17,0.9955015182495117,0.997192919254303,Stora Ängby Alle,22,20,True
+Stora Ängby Alle|12,Stora Ängby Alle|29,0.00042510032653808594,17,0.9983155727386475,0.9987406730651855,Stora Ängby Alle,22,15,True
+Stora Ängby Alle|12,Stora Ängby Alle|31,0.0026658177375793457,17,0.9922351837158203,0.9949010014533997,Stora Ängby Alle,22,16,True
+Stora Ängby Alle|13,Stora Ängby Alle|31,0.0015534162521362305,17,0.9944883584976196,0.9960417747497559,Stora Ängby Alle,22,16,True
+Stora Ängby Alle|13,Stora Ängby Alle|15,0.0004757046699523926,17,0.9980490207672119,0.9985247254371643,Stora Ängby Alle,22,23,True
+Stora Ängby Alle|13,Stora Ängby Alle|29,0.0004366636276245117,17,0.9983086585998535,0.998745322227478,Stora Ängby Alle,22,15,True
+Stora Ängby Alle|15,Stora Ängby Alle|9,0.0007722377777099609,17,0.9965912103652954,0.9973634481430054,Stora Ängby Alle,23,20,True
+Stora Ängby Alle|15,Stora Ängby Alle|9,0.0009017586708068848,17,0.9971386790275574,0.9980404376983643,Stora Ängby Alle,23,20,True
+Stora Ängby Alle|17,Stora Ängby Alle|12,0.005852639675140381,17,0.9850208163261414,0.9908734560012817,Stora Ängby Alle,19,22,True
+Stora Ängby Alle|17,Stora Ängby Alle|12,0.0021709203720092773,17,0.9948656558990479,0.9970365762710571,Stora Ängby Alle,19,22,True
+Stora Ängby Alle|17,Stora Ängby Alle|15,0.0009080171585083008,17,0.9971467852592468,0.9980548024177551,Stora Ängby Alle,19,23,True
+Stora Ängby Alle|19,Stora Ängby Alle|12,0.001402735710144043,17,0.9979754686355591,0.9993782043457031,Stora Ängby Alle,22,22,True
+Stora Ängby Alle|19,Stora Ängby Alle|21,0.00205075740814209,17,0.9947164058685303,0.9967671632766724,Stora Ängby Alle,22,19,True
+Stora Ängby Alle|2,Stora Ängby Alle|19,0.0013835430145263672,17,0.9976525902748108,0.9990361332893372,Stora Ängby Alle,21,22,True
+Stora Ängby Alle|2,Stora Ängby Alle|24,0.001250624656677246,17,0.9978736639022827,0.99912428855896,Stora Ängby Alle,21,14,True
+Stora Ängby Alle|21,Stora Ängby Alle|4,0.000482022762298584,17,0.993192732334137,0.9936747550964355,Stora Ängby Alle,19,20,True
+Stora Ängby Alle|21,Stora Ängby Alle|17,0.000471651554107666,17,0.9988035559654236,0.9992752075195312,Stora Ängby Alle,19,19,True
+Stora Ängby Alle|22,Stora Ängby Alle|29,0.002116978168487549,17,0.9964268207550049,0.9985437989234924,Stora Ängby Alle,15,15,True
+Stora Ängby Alle|24,Stora Ängby Alle|22,0.0001952052116394043,17,0.9972313642501831,0.9974265694618225,Stora Ängby Alle,14,15,True
+Stora Ängby Alle|24,Stora Ängby Alle|26,0.0013666152954101562,17,0.9969724416732788,0.998339056968689,Stora Ängby Alle,14,16,True
+Stora Ängby Alle|26,Stora Ängby Alle|35,0.001147150993347168,17,0.9971668124198914,0.9983139634132385,Stora Ängby Alle,16,16,True
+Stora Ängby Alle|26,Stora Ängby Alle|31,0.0008473992347717285,17,0.9973493218421936,0.9981967210769653,Stora Ängby Alle,16,16,True
+Stora Ängby Alle|31,Stora Ängby Alle|26,0.0006122589111328125,17,0.9985992908477783,0.9992115497589111,Stora Ängby Alle,16,16,True
+Stora Ängby Alle|31,Stora Ängby Alle|29,1.0848045349121094e-05,17,0.9987813234329224,0.9987921714782715,Stora Ängby Alle,16,15,True
+Stora Ängby Alle|33,Stora Ängby Alle|31,0.0014441609382629395,17,0.996520459651947,0.99796462059021,Stora Ängby Alle,16,16,True
+Stora Ängby Alle|33,Stora Ängby Alle|31,0.00044405460357666016,17,0.9974966645240784,0.997940719127655,Stora Ängby Alle,16,16,True
+Stora Ängby Alle|35,Stora Ängby Alle|24,0.0012050867080688477,17,0.9968355894088745,0.9980406761169434,Stora Ängby Alle,16,14,True
+Stora Ängby Alle|4,Stora Ängby Alle|12,0.003796517848968506,17,0.992855966091156,0.9966524839401245,Stora Ängby Alle,20,22,True
+Stora Ängby Alle|6,Stora Ängby Alle|19,0.0003184080123901367,17,0.9969934225082397,0.9973118305206299,Stora Ängby Alle,19,22,True
+Stora Ängby Alle|6,Stora Ängby Alle|19,0.0010561347007751465,17,0.9960086941719055,0.9970648288726807,Stora Ängby Alle,19,22,True
+Stora Ängby Alle|9,Stora Ängby Alle|15,0.0007744431495666504,17,0.9916152954101562,0.9923897385597229,Stora Ängby Alle,20,23,True
+Stora Ängby Alle|9,Stora Ängby Alle|21,0.0018181204795837402,17,0.9959119558334351,0.9977300763130188,Stora Ängby Alle,20,19,True
+Strandliden|6,Strandliden|7,0.00021147727966308594,8,0.9991793036460876,0.9993907809257507,Strandliden,8,8,True
+Strandvägen 59-61|2,Strandvägen 59-61|6,0.009756207466125488,6,0.9839757680892944,0.9937319755554199,Strandvägen 59-61,6,5,True
+Strandvägen 59-61|4,Strandvägen 59-61|5,3.600120544433594e-05,6,0.9979896545410156,0.99802565574646,Strandvägen 59-61,9,11,True
+Strandvägen 59-61|5,Strandvägen 59-61|4,0.0002586841583251953,6,0.9959998726844788,0.996258556842804,Strandvägen 59-61,11,9,True
+Strandvägen 59-61|6,Strandvägen 59-61|1,0.00019305944442749023,6,0.9956760406494141,0.9958691000938416,Strandvägen 59-61,5,7,True
+Stångåvägen|1,Stångåvägen|3,0.015945732593536377,3,0.9685040712356567,0.9844498038291931,Stångåvägen,27,27,True
+Stångåvägen|2,Stångåvägen|3,0.0015219449996948242,3,0.9934765100479126,0.9949984550476074,Stångåvägen,29,27,True
+Stångåvägen|2,Stångåvägen|3,0.0024771690368652344,3,0.985221266746521,0.9876984357833862,Stångåvägen,29,27,True
+Stångåvägen|3,Stångåvägen|2,0.0018519759178161621,3,0.9944707155227661,0.9963226914405823,Stångåvägen,27,29,True
+Svartviksslingan 91-94|2,Svartviksslingan 91-94|3,0.0002925395965576172,3,0.9960358142852783,0.9963283538818359,Svartviksslingan 91-94,7,7,True
+Sveavägen 103|1,Sveavägen 103|2,0.0020524263381958008,2,0.9922778606414795,0.9943302869796753,Sveavägen 103,15,15,True
+Sveavägen 3-5|1,Sveavägen 3-5|3,0.00723719596862793,3,0.9895534515380859,0.9967906475067139,Sveavägen 3-5,11,9,True
+Sveavägen 3-5|3,Sveavägen 3-5|1,0.00017243623733520508,3,0.9976378679275513,0.9978103041648865,Sveavägen 3-5,9,11,True
+Sveavägen Mäster Samuel-Oxtorgsgatan|2,Sveavägen Mäster Samuel-Oxtorgsgatan|1,0.00040078163146972656,7,0.9955145120620728,0.9959152936935425,Sveavägen Mäster Samuel-Oxtorgsgatan,4,3,True
+Sveavägen Mäster Samuel-Oxtorgsgatan|5,Sveavägen Mäster Samuel-Oxtorgsgatan|8,0.000482022762298584,7,0.9970372319221497,0.9975192546844482,Sveavägen Mäster Samuel-Oxtorgsgatan,4,4,True
+Sveavägen Mäster Samuel-Oxtorgsgatan|6,Sveavägen Mäster Samuel-Oxtorgsgatan|8,0.0009438991546630859,7,0.9964045882225037,0.9973484873771667,Sveavägen Mäster Samuel-Oxtorgsgatan,1,4,True
+Sveavägen lådor vid Sergels torg|4,Sveavägen lådor vid Sergels torg|1,9.924173355102539e-05,4,0.9991129636764526,0.9992122054100037,Sveavägen lådor vid Sergels torg,1,1,True
+Sveavägen lådor vid Sergels torg|5,Sveavägen lådor vid Sergels torg|2,0.00029331445693969727,4,0.9992621541023254,0.9995554685592651,Sveavägen lådor vid Sergels torg,1,1,True
+"Torsgatan, år 3-träd|1","Torsgatan, år 3-träd|17",0.015712499618530273,27,0.9801163673400879,0.9958288669586182,"Torsgatan, år 3-träd",6,7,True
+"Torsgatan, år 3-träd|10","Torsgatan, år 3-träd|26",0.001226663589477539,27,0.9952428340911865,0.9964694976806641,"Torsgatan, år 3-träd",6,4,True
+"Torsgatan, år 3-träd|11","Torsgatan, år 3-träd|12",0.0015410184860229492,27,0.9981194734573364,0.9996604919433594,"Torsgatan, år 3-träd",5,6,True
+"Torsgatan, år 3-träd|15","Torsgatan, år 3-träd|17",0.0010289549827575684,27,0.9983975887298584,0.999426543712616,"Torsgatan, år 3-träd",4,7,True
+"Torsgatan, år 3-träd|16","Torsgatan, år 3-träd|15",0.0038858652114868164,27,0.9946761131286621,0.9985619783401489,"Torsgatan, år 3-träd",5,4,True
+"Torsgatan, år 3-träd|17","Torsgatan, år 3-träd|16",0.00037616491317749023,27,0.9988455772399902,0.9992217421531677,"Torsgatan, år 3-träd",7,5,True
+"Torsgatan, år 3-träd|18","Torsgatan, år 3-träd|17",0.0015617609024047852,27,0.9950193166732788,0.9965810775756836,"Torsgatan, år 3-träd",4,7,True
+"Torsgatan, år 3-träd|19","Torsgatan, år 3-träd|21",0.006230831146240234,27,0.991854190826416,0.9980850219726562,"Torsgatan, år 3-träd",4,3,True
+"Torsgatan, år 3-träd|2","Torsgatan, år 3-träd|7",0.0036755800247192383,27,0.9926122426986694,0.9962878227233887,"Torsgatan, år 3-träd",2,5,True
+"Torsgatan, år 3-träd|20","Torsgatan, år 3-träd|21",0.0009816884994506836,27,0.9969729781150818,0.9979546666145325,"Torsgatan, år 3-träd",3,3,True
+"Torsgatan, år 3-träd|21","Torsgatan, år 3-träd|20",6.639957427978516e-05,27,0.9954997301101685,0.9955661296844482,"Torsgatan, år 3-träd",3,3,True
+"Torsgatan, år 3-träd|23","Torsgatan, år 3-träd|25",0.00013947486877441406,27,0.997721791267395,0.9978612661361694,"Torsgatan, år 3-träd",5,8,True
+"Torsgatan, år 3-träd|24","Torsgatan, år 3-träd|13",0.0066558122634887695,27,0.9890533089637756,0.9957091212272644,"Torsgatan, år 3-träd",5,7,True
+"Torsgatan, år 3-träd|25","Torsgatan, år 3-träd|27",0.0023220181465148926,27,0.9950243830680847,0.9973464012145996,"Torsgatan, år 3-träd",8,3,True
+"Torsgatan, år 3-träd|26","Torsgatan, år 3-träd|25",0.0016313791275024414,27,0.9926422238349915,0.9942736029624939,"Torsgatan, år 3-träd",4,8,True
+"Torsgatan, år 3-träd|27","Torsgatan, år 3-träd|13",0.0010963678359985352,27,0.9957534074783325,0.996849775314331,"Torsgatan, år 3-träd",3,7,True
+"Torsgatan, år 3-träd|4","Torsgatan, år 3-träd|24",0.0015230774879455566,27,0.997260332107544,0.9987834095954895,"Torsgatan, år 3-träd",4,5,True
+"Torsgatan, år 3-träd|5","Torsgatan, år 3-träd|24",0.0037660598754882812,27,0.9937522411346436,0.9975183010101318,"Torsgatan, år 3-träd",5,5,True
+"Torsgatan, år 3-träd|7","Torsgatan, år 3-träd|10",0.003742516040802002,27,0.9942396879196167,0.9979822039604187,"Torsgatan, år 3-träd",5,6,True
+"Torsgatan, år 3-träd|8","Torsgatan, år 3-träd|7",0.00035130977630615234,27,0.9982762336730957,0.9986275434494019,"Torsgatan, år 3-träd",6,5,True
+"Torsgatan, år 3-träd|9","Torsgatan, år 3-träd|14",0.0023566484451293945,27,0.9806625843048096,0.983019232749939,"Torsgatan, år 3-träd",6,4,True
+"Torsgatan, år 4-träd Extrabevattning|1","Torsgatan, år 4-träd Extrabevattning|14",0.002152562141418457,17,0.9911137223243713,0.9932662844657898,"Torsgatan, år 4-träd Extrabevattning",1,1,True
+"Torsgatan, år 4-träd Extrabevattning|13","Torsgatan, år 4-träd Extrabevattning|2",0.00028759241104125977,17,0.9929047226905823,0.9931923151016235,"Torsgatan, år 4-träd Extrabevattning",1,1,True
+"Torsgatan, år 4-träd Extrabevattning|2","Torsgatan, år 4-träd Extrabevattning|1",0.006999969482421875,17,0.9832010865211487,0.9902010560035706,"Torsgatan, år 4-träd Extrabevattning",1,1,True
+"Torsgatan, år 4-träd Extrabevattning|3","Torsgatan, år 4-träd Extrabevattning|1",0.005651712417602539,17,0.9860701560974121,0.9917218685150146,"Torsgatan, år 4-träd Extrabevattning",1,1,True
+"Torsgatan, år 4-träd Extrabevattning|5","Torsgatan, år 4-träd Extrabevattning|16",0.012491703033447266,17,0.9857692122459412,0.9982609152793884,"Torsgatan, år 4-träd Extrabevattning",1,1,True
+"Torsgatan, år 4-träd Extrabevattning|6","Torsgatan, år 4-träd Extrabevattning|16",0.008154988288879395,17,0.9866936206817627,0.9948486089706421,"Torsgatan, år 4-träd Extrabevattning",1,1,True
+"Torsgatan, år 4-träd Extrabevattning|7","Torsgatan, år 4-träd Extrabevattning|11",0.005233049392700195,17,0.9876405000686646,0.9928735494613647,"Torsgatan, år 4-träd Extrabevattning",1,1,True
+"Torsgatan, år 4-träd Extrabevattning|8","Torsgatan, år 4-träd Extrabevattning|7",0.0005879402160644531,17,0.9916799664497375,0.992267906665802,"Torsgatan, år 4-träd Extrabevattning",2,1,True
+"Torsgatan, år 4-träd Extrabevattning|9","Torsgatan, år 4-träd Extrabevattning|14",0.003293633460998535,17,0.9947680234909058,0.9980616569519043,"Torsgatan, år 4-träd Extrabevattning",1,1,True
+Torsplan etapp 1|10,Torsplan etapp 1|14,0.000624537467956543,17,0.9971201419830322,0.9977446794509888,Torsplan etapp 1,14,18,True
+Torsplan etapp 1|11,Torsplan etapp 1|15,2.288818359375e-05,17,0.999384343624115,0.9994072318077087,Torsplan etapp 1,18,14,True
+Torsplan etapp 1|11,Torsplan etapp 1|14,0.0005463361740112305,17,0.9987568855285645,0.9993032217025757,Torsplan etapp 1,18,18,True
+Torsplan etapp 1|11,Torsplan etapp 1|12,7.510185241699219e-06,17,0.9973959922790527,0.9974035024642944,Torsplan etapp 1,18,17,True
+Torsplan etapp 1|12,Torsplan etapp 1|11,0.0006824135780334473,17,0.996038019657135,0.9967204332351685,Torsplan etapp 1,17,18,True
+Torsplan etapp 1|12,Torsplan etapp 1|9,0.00041615962982177734,17,0.9978964328765869,0.9983125925064087,Torsplan etapp 1,17,16,True
+Torsplan etapp 1|13,Torsplan etapp 1|10,0.0014719963073730469,17,0.9964600801467896,0.9979320764541626,Torsplan etapp 1,18,14,True
+Torsplan etapp 1|13,Torsplan etapp 1|11,0.0010849237442016602,17,0.9972376227378845,0.9983225464820862,Torsplan etapp 1,18,18,True
+Torsplan etapp 1|14,Torsplan etapp 1|15,0.0022842884063720703,17,0.9961719512939453,0.9984562397003174,Torsplan etapp 1,18,14,True
+Torsplan etapp 1|14,Torsplan etapp 1|11,0.0025529861450195312,17,0.9957565665245056,0.9983095526695251,Torsplan etapp 1,18,18,True
+Torsplan etapp 1|15,Torsplan etapp 1|12,0.00012642145156860352,17,0.9988785982131958,0.9990050196647644,Torsplan etapp 1,14,17,True
+Torsplan etapp 1|15,Torsplan etapp 1|12,0.0008353590965270996,17,0.998457670211792,0.9992930293083191,Torsplan etapp 1,14,17,True
+Torsplan etapp 1|16,Torsplan etapp 1|13,9.226799011230469e-05,17,0.9969353079795837,0.997027575969696,Torsplan etapp 1,11,18,True
+Torsplan etapp 1|17,Torsplan etapp 1|15,0.0008726119995117188,17,0.9970875978469849,0.9979602098464966,Torsplan etapp 1,7,14,True
+Torsplan etapp 1|2,Torsplan etapp 1|3,0.00043970346450805664,17,0.9990009069442749,0.999440610408783,Torsplan etapp 1,9,9,True
+Torsplan etapp 1|4,Torsplan etapp 1|3,0.004793822765350342,17,0.9934959411621094,0.9982897639274597,Torsplan etapp 1,8,9,True
+Torsplan etapp 1|5,Torsplan etapp 1|14,0.0017491579055786133,17,0.9976704120635986,0.9994195699691772,Torsplan etapp 1,7,18,True
+Torsplan etapp 1|6,Torsplan etapp 1|15,0.0011324882507324219,17,0.9965921640396118,0.9977246522903442,Torsplan etapp 1,12,14,True
+Torsplan etapp 1|7,Torsplan etapp 1|5,0.00031834840774536133,17,0.9988964200019836,0.999214768409729,Torsplan etapp 1,16,7,True
+Torsplan etapp 1|8,Torsplan etapp 1|12,5.632638931274414e-05,17,0.9989839196205139,0.9990402460098267,Torsplan etapp 1,13,17,True
+Torsplan etapp 1|8,Torsplan etapp 1|17,0.0007913112640380859,17,0.9983119964599609,0.999103307723999,Torsplan etapp 1,13,7,True
+Torsplan etapp 2|1,Torsplan etapp 2|5,0.0007610321044921875,23,0.9982349872589111,0.9989960193634033,Torsplan etapp 2,6,5,True
+Torsplan etapp 2|10,Torsplan etapp 2|2,0.0008578896522521973,23,0.998085081577301,0.9989429712295532,Torsplan etapp 2,8,6,True
+Torsplan etapp 2|11,Torsplan etapp 2|9,1.5854835510253906e-05,23,0.9983776211738586,0.9983934760093689,Torsplan etapp 2,5,7,True
+Torsplan etapp 2|12,Torsplan etapp 2|7,0.0002415776252746582,23,0.9990968108177185,0.9993383884429932,Torsplan etapp 2,8,6,True
+Torsplan etapp 2|13,Torsplan etapp 2|21,0.000525057315826416,23,0.9989550113677979,0.9994800686836243,Torsplan etapp 2,6,7,True
+Torsplan etapp 2|14,Torsplan etapp 2|17,0.00012058019638061523,23,0.9989025592803955,0.9990231394767761,Torsplan etapp 2,6,2,True
+Torsplan etapp 2|15,Torsplan etapp 2|16,0.010677337646484375,23,0.9869792461395264,0.9976565837860107,Torsplan etapp 2,6,4,True
+Torsplan etapp 2|16,Torsplan etapp 2|15,0.0012873411178588867,23,0.9967093467712402,0.9979966878890991,Torsplan etapp 2,4,6,True
+Torsplan etapp 2|17,Torsplan etapp 2|15,0.0005959868431091309,23,0.9980798363685608,0.9986758232116699,Torsplan etapp 2,2,6,True
+Torsplan etapp 2|18,Torsplan etapp 2|6,0.0008128881454467773,23,0.9977573752403259,0.9985702633857727,Torsplan etapp 2,3,7,True
+Torsplan etapp 2|19,Torsplan etapp 2|8,0.0054360032081604,23,0.9897027611732483,0.9951387643814087,Torsplan etapp 2,4,6,True
+Torsplan etapp 2|2,Torsplan etapp 2|13,1.9609928131103516e-05,23,0.9994091391563416,0.9994287490844727,Torsplan etapp 2,6,6,True
+Torsplan etapp 2|20,Torsplan etapp 2|5,0.0006304383277893066,23,0.9984993934631348,0.9991298317909241,Torsplan etapp 2,8,5,True
+Torsplan etapp 2|21,Torsplan etapp 2|14,0.009855270385742188,23,0.9837559461593628,0.993611216545105,Torsplan etapp 2,7,6,True
+Torsplan etapp 2|22,Torsplan etapp 2|4,0.007692456245422363,23,0.9895048141479492,0.9971972703933716,Torsplan etapp 2,5,8,True
+Torsplan etapp 2|23,Torsplan etapp 2|7,0.0023561716079711914,23,0.9957992434501648,0.998155415058136,Torsplan etapp 2,6,6,True
+Torsplan etapp 2|3,Torsplan etapp 2|4,0.0018891096115112305,23,0.9974352121353149,0.9993243217468262,Torsplan etapp 2,7,8,True
+Torsplan etapp 2|5,Torsplan etapp 2|20,0.00029146671295166016,23,0.9980062246322632,0.9982976913452148,Torsplan etapp 2,5,8,True
+Torsplan etapp 2|6,Torsplan etapp 2|19,0.0006483793258666992,23,0.9987504482269287,0.9993988275527954,Torsplan etapp 2,7,4,True
+Torsplan etapp 2|7,Torsplan etapp 2|4,0.00013005733489990234,23,0.9990264177322388,0.9991564750671387,Torsplan etapp 2,6,8,True
+Tyska Botten Väg 56|10,Tyska Botten Väg 56|11,0.002321600914001465,11,0.9926744699478149,0.9949960708618164,Tyska Botten Väg 56,17,14,True
+Tyska Botten Väg 56|3,Tyska Botten Väg 56|5,0.0007305741310119629,11,0.9980258941650391,0.998756468296051,Tyska Botten Väg 56,17,17,True
+Tyska Botten Väg 56|3,Tyska Botten Väg 56|5,0.0003618001937866211,11,0.9983989000320435,0.9987607002258301,Tyska Botten Väg 56,17,17,True
+Tyska Botten Väg 56|3,Tyska Botten Väg 56|4,0.0001952648162841797,11,0.9981047511100769,0.9983000159263611,Tyska Botten Väg 56,17,16,True
+Tyska Botten Väg 56|4,Tyska Botten Väg 56|11,0.0016884207725524902,11,0.9958935379981995,0.997581958770752,Tyska Botten Väg 56,16,14,True
+Tyska Botten Väg 56|6,Tyska Botten Väg 56|7,0.0031828880310058594,11,0.9943400621414185,0.9975229501724243,Tyska Botten Väg 56,16,17,True
+Tyska Botten Väg 56|7,Tyska Botten Väg 56|9,0.0005900859832763672,11,0.9971583485603333,0.9977484345436096,Tyska Botten Väg 56,17,13,True
+Tyska Botten Väg 9|11,Tyska Botten Väg 9|15,0.0021849870681762695,22,0.9951436519622803,0.9973286390304565,Tyska Botten Väg 9,15,12,True
+Tyska Botten Väg 9|11,Tyska Botten Väg 9|14,0.001010596752166748,22,0.9980794191360474,0.9990900158882141,Tyska Botten Väg 9,15,16,True
+Tyska Botten Väg 9|12,Tyska Botten Väg 9|13,2.658367156982422e-05,22,0.9993171691894531,0.999343752861023,Tyska Botten Väg 9,15,14,True
+Tyska Botten Väg 9|12,Tyska Botten Väg 9|13,0.00010067224502563477,22,0.9993258118629456,0.9994264841079712,Tyska Botten Väg 9,15,14,True
+Tyska Botten Väg 9|13,Tyska Botten Väg 9|9,0.001428067684173584,22,0.997552216053009,0.9989802837371826,Tyska Botten Väg 9,14,15,True
+Tyska Botten Väg 9|13,Tyska Botten Väg 9|12,0.00013780593872070312,22,0.9994165897369385,0.9995543956756592,Tyska Botten Väg 9,14,15,True
+Tyska Botten Väg 9|14,Tyska Botten Väg 9|12,0.0007173418998718262,22,0.9984177350997925,0.9991350769996643,Tyska Botten Väg 9,16,15,True
+Tyska Botten Väg 9|14,Tyska Botten Väg 9|13,0.0007115602493286133,22,0.998438835144043,0.9991503953933716,Tyska Botten Väg 9,16,14,True
+Tyska Botten Väg 9|15,Tyska Botten Väg 9|5,0.000626683235168457,22,0.9978359937667847,0.9984626770019531,Tyska Botten Väg 9,12,15,True
+Tyska Botten Väg 9|16,Tyska Botten Väg 9|11,0.0006822943687438965,22,0.9977258443832397,0.9984081387519836,Tyska Botten Väg 9,14,15,True
+Tyska Botten Väg 9|17,Tyska Botten Väg 9|15,0.0003350377082824707,22,0.9982117414474487,0.9985467791557312,Tyska Botten Väg 9,18,12,True
+Tyska Botten Väg 9|17,Tyska Botten Väg 9|11,3.337860107421875e-06,22,0.999168872833252,0.9991722106933594,Tyska Botten Väg 9,18,15,True
+Tyska Botten Väg 9|18,Tyska Botten Väg 9|8,0.00013017654418945312,22,0.998272180557251,0.9984023571014404,Tyska Botten Väg 9,15,13,True
+Tyska Botten Väg 9|19,Tyska Botten Väg 9|20,0.0003355741500854492,22,0.9986326694488525,0.998968243598938,Tyska Botten Väg 9,15,12,True
+Tyska Botten Väg 9|19,Tyska Botten Väg 9|17,0.0003018379211425781,22,0.9975215196609497,0.9978233575820923,Tyska Botten Väg 9,15,18,True
+Tyska Botten Väg 9|21,Tyska Botten Väg 9|19,0.004948735237121582,22,0.9932043552398682,0.9981530904769897,Tyska Botten Väg 9,14,15,True
+Tyska Botten Väg 9|4,Tyska Botten Väg 9|6,0.0011981725692749023,22,0.9968109130859375,0.9980090856552124,Tyska Botten Väg 9,16,17,True
+Tyska Botten Väg 9|6,Tyska Botten Väg 9|5,0.00021535158157348633,22,0.9986055493354797,0.9988209009170532,Tyska Botten Väg 9,17,15,True
+Tyska Botten Väg 9|7,Tyska Botten Väg 9|2,0.004280686378479004,22,0.9926560521125793,0.9969367384910583,Tyska Botten Väg 9,16,17,True
+Tyska Botten Väg 9|7,Tyska Botten Väg 9|18,0.00174713134765625,22,0.9958407878875732,0.9975879192352295,Tyska Botten Väg 9,16,15,True
+Tyska Botten Väg 9|8,Tyska Botten Väg 9|18,0.0014160871505737305,22,0.997327446937561,0.9987435340881348,Tyska Botten Väg 9,13,15,True
+Tyska Botten Väg 9|9,Tyska Botten Väg 9|13,0.00023919343948364258,22,0.9985318183898926,0.9987710118293762,Tyska Botten Väg 9,15,14,True
+Tyska Botten Väg 9|9,Tyska Botten Väg 9|15,2.8848648071289062e-05,22,0.9987453818321228,0.9987742304801941,Tyska Botten Väg 9,15,12,True
+Ullerudsbacken|2,Ullerudsbacken|3,3.796815872192383e-05,4,0.9965007305145264,0.9965386986732483,Ullerudsbacken,19,20,True
+Ullerudsbacken|3,Ullerudsbacken|4,0.0032439827919006348,4,0.9929048418998718,0.9961488246917725,Ullerudsbacken,20,17,True
+Valhallavägen 102-108|6,Valhallavägen 102-108|7,0.0036159157752990723,2,0.989249050617218,0.9928649663925171,Valhallavägen 102-108,2,4,True
+Valhallavägen 102-108|7,Valhallavägen 102-108|6,0.00018030405044555664,2,0.9976451396942139,0.9978254437446594,Valhallavägen 102-108,4,2,True
+Valhallavägen 49|2,Valhallavägen 49|3,0.0028375983238220215,4,0.9932524561882019,0.9960900545120239,Valhallavägen 49,6,7,True
+Valhallavägen 49|3,Valhallavägen 49|4,0.00034987926483154297,4,0.9963771104812622,0.9967269897460938,Valhallavägen 49,7,6,True
+Valhallavägen 49|4,Valhallavägen 49|3,0.003499746322631836,4,0.9938451647758484,0.9973449110984802,Valhallavägen 49,6,7,True
+Valhallavägen 49|5,Valhallavägen 49|4,0.00021314620971679688,4,0.9765387773513794,0.9767519235610962,Valhallavägen 49,7,6,True
+Valhallavägen Roslagstull|3,Valhallavägen Roslagstull|5,0.001019597053527832,4,0.9949963092803955,0.9960159063339233,Valhallavägen Roslagstull,3,2,True
+Vanadislunden|1,Vanadislunden|2,2.968311309814453e-05,2,0.9984104633331299,0.998440146446228,Vanadislunden,6,8,True
+Vanadisvägen 23-27|1,Vanadisvägen 23-27|3,0.0001380443572998047,5,0.9986164569854736,0.9987545013427734,Vanadisvägen 23-27,15,15,True
+Vanadisvägen 23-27|2,Vanadisvägen 23-27|5,0.0028696656227111816,5,0.9946774840354919,0.9975471496582031,Vanadisvägen 23-27,15,17,True
+Vanadisvägen 23-27|3,Vanadisvägen 23-27|1,0.00038951635360717773,5,0.9961037039756775,0.9964932203292847,Vanadisvägen 23-27,15,15,True
+Vanadisvägen 23-27|3,Vanadisvägen 23-27|5,0.0005952119827270508,5,0.9978779554367065,0.9984731674194336,Vanadisvägen 23-27,15,17,True
+Vanadisvägen 23-27|4,Vanadisvägen 23-27|2,0.000476837158203125,5,0.9979767799377441,0.9984536170959473,Vanadisvägen 23-27,14,15,True
+Vanadisvägen 23-27|4,Vanadisvägen 23-27|1,0.0003732442855834961,5,0.9983844757080078,0.9987577199935913,Vanadisvägen 23-27,14,15,True
+Vanadisvägen 23-27|5,Vanadisvägen 23-27|1,0.0009298324584960938,5,0.9983757138252258,0.9993055462837219,Vanadisvägen 23-27,17,15,True
+Vandenbergh Strandpromenad|10,Vandenbergh Strandpromenad|6,0.0015667080879211426,18,0.9956189393997192,0.9971856474876404,Vandenbergh Strandpromenad,12,10,True
+Vandenbergh Strandpromenad|14,Vandenbergh Strandpromenad|13,0.00048726797103881836,18,0.9980161786079407,0.9985034465789795,Vandenbergh Strandpromenad,12,11,True
+Vandenbergh Strandpromenad|3,Vandenbergh Strandpromenad|9,0.0026893019676208496,18,0.9894136786460876,0.9921029806137085,Vandenbergh Strandpromenad,12,11,True
+Vandenbergh Strandpromenad|6,Vandenbergh Strandpromenad|12,0.00020688772201538086,18,0.9976581931114197,0.9978650808334351,Vandenbergh Strandpromenad,10,8,True
+Vasagatan / Herkulesgatan-Tegelbacken|1,Vasagatan / Herkulesgatan-Tegelbacken|2,0.0002194046974182129,3,0.9991405606269836,0.9993599653244019,Vasagatan / Herkulesgatan-Tegelbacken,17,16,True
+Vasagatan / Herkulesgatan-Tegelbacken|1,Vasagatan / Herkulesgatan-Tegelbacken|2,2.6404857635498047e-05,3,0.9992993474006653,0.9993257522583008,Vasagatan / Herkulesgatan-Tegelbacken,17,16,True
+Vasagatan / Herkulesgatan-Tegelbacken|2,Vasagatan / Herkulesgatan-Tegelbacken|3,0.00036597251892089844,3,0.9993542432785034,0.9997202157974243,Vasagatan / Herkulesgatan-Tegelbacken,16,17,True
+Vasagatan / Herkulesgatan-Tegelbacken|2,Vasagatan / Herkulesgatan-Tegelbacken|1,3.5762786865234375e-05,3,0.998745858669281,0.9987816214561462,Vasagatan / Herkulesgatan-Tegelbacken,16,17,True
+Vasagatan / Herkulesgatan-Tegelbacken|3,Vasagatan / Herkulesgatan-Tegelbacken|2,0.00012254714965820312,3,0.9992963671684265,0.9994189143180847,Vasagatan / Herkulesgatan-Tegelbacken,17,16,True
+Vasagatan / Klara Vattugränd- Vattugatan|1,Vasagatan / Klara Vattugränd- Vattugatan|3,0.03107762336730957,9,0.9624248147010803,0.9935024380683899,Vasagatan / Klara Vattugränd- Vattugatan,14,12,True
+Vasagatan / Klara Vattugränd- Vattugatan|2,Vasagatan / Klara Vattugränd- Vattugatan|9,9.655952453613281e-05,9,0.999591052532196,0.9996876120567322,Vasagatan / Klara Vattugränd- Vattugatan,12,15,True
+Vasagatan / Klara Vattugränd- Vattugatan|3,Vasagatan / Klara Vattugränd- Vattugatan|4,0.00029075145721435547,9,0.9993678331375122,0.9996585845947266,Vasagatan / Klara Vattugränd- Vattugatan,12,13,True
+Vasagatan / Klara Vattugränd- Vattugatan|4,Vasagatan / Klara Vattugränd- Vattugatan|7,0.0003572702407836914,9,0.9985597133636475,0.9989169836044312,Vasagatan / Klara Vattugränd- Vattugatan,13,17,True
+Vasagatan / Klara Vattugränd- Vattugatan|4,Vasagatan / Klara Vattugränd- Vattugatan|7,0.0018315315246582031,9,0.9969630241394043,0.9987945556640625,Vasagatan / Klara Vattugränd- Vattugatan,13,17,True
+Vasagatan / Klara Vattugränd- Vattugatan|5,Vasagatan / Klara Vattugränd- Vattugatan|9,0.0004998445510864258,9,0.9979212284088135,0.9984210729598999,Vasagatan / Klara Vattugränd- Vattugatan,11,15,True
+Vasagatan / Klara Vattugränd- Vattugatan|7,Vasagatan / Klara Vattugränd- Vattugatan|5,5.4836273193359375e-05,9,0.999649703502655,0.9997045397758484,Vasagatan / Klara Vattugränd- Vattugatan,17,11,True
+Vasagatan / Klara Vattugränd- Vattugatan|7,Vasagatan / Klara Vattugränd- Vattugatan|8,0.0004614591598510742,9,0.9985805749893188,0.9990420341491699,Vasagatan / Klara Vattugränd- Vattugatan,17,13,True
+Vasagatan / Klara Vattugränd- Vattugatan|8,Vasagatan / Klara Vattugränd- Vattugatan|3,0.0004419684410095215,9,0.9990473389625549,0.9994893074035645,Vasagatan / Klara Vattugränd- Vattugatan,13,12,True
+Vasagatan / Klara Vattugränd- Vattugatan|8,Vasagatan / Klara Vattugränd- Vattugatan|6,0.00011491775512695312,9,0.9991099834442139,0.9992249011993408,Vasagatan / Klara Vattugränd- Vattugatan,13,13,True
+Vasagatan / Klara Vattugränd- Vattugatan|9,Vasagatan / Klara Vattugränd- Vattugatan|5,0.00039964914321899414,9,0.9986153841018677,0.9990150332450867,Vasagatan / Klara Vattugränd- Vattugatan,15,11,True
+Vasagatan / Klara Vattugränd- Vattugatan|9,Vasagatan / Klara Vattugränd- Vattugatan|8,0.002048492431640625,9,0.9966579675674438,0.9987064599990845,Vasagatan / Klara Vattugränd- Vattugatan,15,13,True
+Vasagatan / Kungsgatan - Bryggargatan|1,Vasagatan / Kungsgatan - Bryggargatan|5,0.0006387829780578613,10,0.9981390237808228,0.9987778067588806,Vasagatan / Kungsgatan - Bryggargatan,16,5,True
+Vasagatan / Kungsgatan - Bryggargatan|1,Vasagatan / Kungsgatan - Bryggargatan|7,0.0001125335693359375,10,0.9994543790817261,0.999566912651062,Vasagatan / Kungsgatan - Bryggargatan,16,13,True
+Vasagatan / Kungsgatan - Bryggargatan|10,Vasagatan / Kungsgatan - Bryggargatan|1,0.00614553689956665,10,0.9927694797515869,0.9989150166511536,Vasagatan / Kungsgatan - Bryggargatan,7,16,True
+Vasagatan / Kungsgatan - Bryggargatan|2,Vasagatan / Kungsgatan - Bryggargatan|3,0.0001526474952697754,10,0.9987999796867371,0.9989526271820068,Vasagatan / Kungsgatan - Bryggargatan,11,10,True
+Vasagatan / Kungsgatan - Bryggargatan|4,Vasagatan / Kungsgatan - Bryggargatan|3,0.00045561790466308594,10,0.998345136642456,0.9988007545471191,Vasagatan / Kungsgatan - Bryggargatan,7,10,True
+Vasagatan / Kungsgatan - Bryggargatan|5,Vasagatan / Kungsgatan - Bryggargatan|9,6.830692291259766e-05,10,0.9984673261642456,0.9985356330871582,Vasagatan / Kungsgatan - Bryggargatan,5,9,True
+Vasagatan / Kungsgatan - Bryggargatan|6,Vasagatan / Kungsgatan - Bryggargatan|1,0.0004315972328186035,10,0.998589038848877,0.9990206360816956,Vasagatan / Kungsgatan - Bryggargatan,8,16,True
+Vasagatan / Kungsgatan - Bryggargatan|7,Vasagatan / Kungsgatan - Bryggargatan|9,0.0012603402137756348,10,0.9976510405540466,0.9989113807678223,Vasagatan / Kungsgatan - Bryggargatan,13,9,True
+Vasagatan / Kungsgatan - Bryggargatan|7,Vasagatan / Kungsgatan - Bryggargatan|1,0.00041496753692626953,10,0.9990154504776001,0.9994304180145264,Vasagatan / Kungsgatan - Bryggargatan,13,16,True
+Vasagatan / Kungsgatan - Bryggargatan|9,Vasagatan / Kungsgatan - Bryggargatan|4,0.0020073652267456055,10,0.994557797908783,0.9965651631355286,Vasagatan / Kungsgatan - Bryggargatan,9,7,True
+Vasagatan / Olof Palme -Kungsgatan|1,Vasagatan / Olof Palme -Kungsgatan|7,0.0009628534317016602,7,0.992801308631897,0.9937641620635986,Vasagatan / Olof Palme -Kungsgatan,12,9,True
+Vasagatan / Olof Palme -Kungsgatan|1,Vasagatan / Olof Palme -Kungsgatan|2,0.0017044544219970703,7,0.9967864751815796,0.9984909296035767,Vasagatan / Olof Palme -Kungsgatan,12,10,True
+Vasagatan / Olof Palme -Kungsgatan|2,Vasagatan / Olof Palme -Kungsgatan|6,2.777576446533203e-05,7,0.9976644515991211,0.9976922273635864,Vasagatan / Olof Palme -Kungsgatan,10,6,True
+Vasagatan / Olof Palme -Kungsgatan|3,Vasagatan / Olof Palme -Kungsgatan|5,0.0004317164421081543,7,0.9987061023712158,0.999137818813324,Vasagatan / Olof Palme -Kungsgatan,7,7,True
+Vasagatan / Olof Palme -Kungsgatan|4,Vasagatan / Olof Palme -Kungsgatan|5,0.0012400150299072266,7,0.9983588457107544,0.9995988607406616,Vasagatan / Olof Palme -Kungsgatan,4,7,True
+Vasagatan / Olof Palme -Kungsgatan|5,Vasagatan / Olof Palme -Kungsgatan|3,0.00026494264602661133,7,0.9988105893135071,0.9990755319595337,Vasagatan / Olof Palme -Kungsgatan,7,7,True
+Vasagatan / Olof Palme -Kungsgatan|7,Vasagatan / Olof Palme -Kungsgatan|6,0.0013413429260253906,7,0.9968400001525879,0.9981813430786133,Vasagatan / Olof Palme -Kungsgatan,9,6,True
+Vasagatan / Vasaplan - Centralplan|1,Vasagatan / Vasaplan - Centralplan|3,0.0010831356048583984,10,0.9978947639465332,0.9989778995513916,Vasagatan / Vasaplan - Centralplan,6,8,True
+Vasagatan / Vasaplan - Centralplan|10,Vasagatan / Vasaplan - Centralplan|8,0.00012558698654174805,10,0.998862087726593,0.9989876747131348,Vasagatan / Vasaplan - Centralplan,6,8,True
+Vasagatan / Vasaplan - Centralplan|3,Vasagatan / Vasaplan - Centralplan|8,3.522634506225586e-05,10,0.9996601343154907,0.999695360660553,Vasagatan / Vasaplan - Centralplan,8,8,True
+Vasagatan / Vasaplan - Centralplan|4,Vasagatan / Vasaplan - Centralplan|10,0.0004760622978210449,10,0.9989652037620544,0.9994412660598755,Vasagatan / Vasaplan - Centralplan,7,6,True
+Vasagatan / Vasaplan - Centralplan|6,Vasagatan / Vasaplan - Centralplan|7,0.005603909492492676,10,0.9868960380554199,0.9924999475479126,Vasagatan / Vasaplan - Centralplan,8,6,True
+Vasagatan / Vasaplan - Centralplan|7,Vasagatan / Vasaplan - Centralplan|8,5.3882598876953125e-05,10,0.9987625479698181,0.9988164305686951,Vasagatan / Vasaplan - Centralplan,6,8,True
+Vasagatan / Vattugatan- Herkulesgatan|1,Vasagatan / Vattugatan- Herkulesgatan|2,0.0033475160598754883,2,0.9953680038452148,0.9987155199050903,Vasagatan / Vattugatan- Herkulesgatan,13,13,True
+Vasagatan / Vattugatan- Herkulesgatan|2,Vasagatan / Vattugatan- Herkulesgatan|1,0.00029581785202026367,2,0.9988869428634644,0.9991827607154846,Vasagatan / Vattugatan- Herkulesgatan,13,13,True
+Vasagatan 28|11,Vasagatan 28|5,0.0009754300117492676,12,0.9975199699401855,0.9984953999519348,Vasagatan 28,1,12,True
+Vasagatan 28|2,Vasagatan 28|5,0.00010657310485839844,12,0.9993487596511841,0.9994553327560425,Vasagatan 28,12,12,True
+Vasagatan 28|3,Vasagatan 28|4,0.0004366636276245117,12,0.9967029094696045,0.997139573097229,Vasagatan 28,9,12,True
+Vasagatan 28|4,Vasagatan 28|5,2.2649765014648438e-06,12,0.9994024038314819,0.9994046688079834,Vasagatan 28,12,12,True
+Vasagatan 28|5,Vasagatan 28|12,7.49826431274414e-05,12,0.9993307590484619,0.9994057416915894,Vasagatan 28,12,6,True
+Vasagatan 28|5,Vasagatan 28|2,0.00036215782165527344,12,0.9987940788269043,0.9991562366485596,Vasagatan 28,12,12,True
+Vasagatan 28|6,Vasagatan 28|2,8.124113082885742e-05,12,0.999559760093689,0.9996410012245178,Vasagatan 28,8,12,True
+Vasagatan 28|8,Vasagatan 28|5,0.0015985369682312012,12,0.9975468516349792,0.9991453886032104,Vasagatan 28,1,12,True
+Vasagatan 28|9,Vasagatan 28|6,0.0012927055358886719,12,0.998304009437561,0.9995967149734497,Vasagatan 28,1,8,True
+Vasagatan centralplan|1,Vasagatan centralplan|2,0.00015431642532348633,3,0.9978632926940918,0.9980176091194153,Vasagatan centralplan,7,12,True
+Vasagatan centralplan|3,Vasagatan centralplan|1,0.00028192996978759766,3,0.9991576671600342,0.9994395971298218,Vasagatan centralplan,13,7,True
+Vasaloppsvägen 73-75|4,Vasaloppsvägen 73-75|3,0.0013725757598876953,4,0.9957693219184875,0.9971418976783752,Vasaloppsvägen 73-75,3,4,True
+Vintertullstorget|2,Vintertullstorget|1,0.011087596416473389,2,0.9781551957130432,0.9892427921295166,Vintertullstorget,3,1,True
+Vultejusvägen 23|6,Vultejusvägen 23|7,0.0012224316596984863,8,0.9975701570510864,0.9987925887107849,Vultejusvägen 23,7,7,True
+Vultejusvägen 23|7,Vultejusvägen 23|5,0.0036954879760742188,8,0.9568608999252319,0.9605563879013062,Vultejusvägen 23,7,7,True
+Vultejusvägen 23|8,Vultejusvägen 23|6,0.0008018016815185547,8,0.993450403213501,0.9942522048950195,Vultejusvägen 23,7,7,True
+Vultejusvägen ip|2,Vultejusvägen ip|3,2.1457672119140625e-05,6,0.9991552233695984,0.9991766810417175,Vultejusvägen ip,20,19,True
+Vultejusvägen ip|2,Vultejusvägen ip|3,0.0007536411285400391,6,0.9980874061584473,0.9988410472869873,Vultejusvägen ip,20,19,True
+Vultejusvägen ip|3,Vultejusvägen ip|4,0.0005120038986206055,6,0.9981484413146973,0.9986604452133179,Vultejusvägen ip,19,21,True
+Vultejusvägen ip|3,Vultejusvägen ip|2,0.0005172491073608398,6,0.998877763748169,0.9993950128555298,Vultejusvägen ip,19,20,True
+Vultejusvägen ip|4,Vultejusvägen ip|6,0.0012069940567016602,6,0.9976193904876709,0.9988263845443726,Vultejusvägen ip,21,20,True
+Vultejusvägen ip|4,Vultejusvägen ip|2,0.00016450881958007812,6,0.9987912178039551,0.9989557266235352,Vultejusvägen ip,21,20,True
+Vultejusvägen ip|4,Vultejusvägen ip|2,0.00017464160919189453,6,0.9986241459846497,0.9987987875938416,Vultejusvägen ip,21,20,True
+Vultejusvägen ip|5,Vultejusvägen ip|4,0.00012969970703125,6,0.9976649284362793,0.9977946281433105,Vultejusvägen ip,20,21,True
+Vultejusvägen ip|6,Vultejusvägen ip|5,0.00018930435180664062,6,0.9978811740875244,0.998070478439331,Vultejusvägen ip,20,20,True
+Värtavägen|1,Värtavägen|5,0.0011101961135864258,5,0.9935388565063477,0.9946490526199341,Värtavägen,3,7,True
+Värtavägen|2,Värtavägen|3,0.00105363130569458,5,0.9943295121192932,0.9953831434249878,Värtavägen,1,2,True
+Värtavägen|3,Värtavägen|5,0.0032187700271606445,5,0.9918591380119324,0.995077908039093,Värtavägen,2,7,True
+Värtavägen|4,Värtavägen|5,0.0020579099655151367,5,0.9960389137268066,0.9980968236923218,Värtavägen,4,7,True
+Västberga allé|1,Västberga allé|2,0.0051084160804748535,5,0.9901868104934692,0.9952952265739441,Västberga allé,4,5,True
+Västberga allé|2,Västberga allé|1,0.006639420986175537,5,0.9906149506568909,0.9972543716430664,Västberga allé,5,4,True
+Västerled 166-172|2,Västerled 166-172|1,0.004277050495147705,2,0.9934319257736206,0.9977089762687683,Västerled 166-172,12,12,True
+Västerled 204-224 (Extra bevattning)|1,Västerled 204-224 (Extra bevattning)|2,0.0006816387176513672,14,0.9982702732086182,0.9989519119262695,Västerled 204-224 (Extra bevattning),10,9,True
+Västerled 204-224 (Extra bevattning)|14,Västerled 204-224 (Extra bevattning)|16,0.0014775991439819336,14,0.9961435794830322,0.9976211786270142,Västerled 204-224 (Extra bevattning),8,8,True
+Västerled 204-224 (Extra bevattning)|15,Västerled 204-224 (Extra bevattning)|9,0.003031909465789795,14,0.9844563007354736,0.9874882102012634,Västerled 204-224 (Extra bevattning),10,11,True
+Västerled 224 / Skaldevägen|1,Västerled 224 / Skaldevägen|2,0.0008630752563476562,2,0.9973124265670776,0.9981755018234253,Västerled 224 / Skaldevägen,19,20,True
+Västerled 224 / Skaldevägen|2,Västerled 224 / Skaldevägen|1,0.0014916062355041504,2,0.9968195557594299,0.9983111619949341,Västerled 224 / Skaldevägen,20,19,True
+Vårbergs IP|2,Vårbergs IP|1,0.004502594470977783,3,0.9922512173652649,0.9967538118362427,Vårbergs IP,2,1,True
+Vårbergstoppen E2|11,Vårbergstoppen E2|13,6.914138793945312e-05,15,0.9991863965988159,0.9992555379867554,Vårbergstoppen E2,16,16,True
+Vårbergstoppen E2|12,Vårbergstoppen E2|1,0.0005409717559814453,15,0.9981924295425415,0.998733401298523,Vårbergstoppen E2,18,15,True
+Vårbergstoppen E2|12,Vårbergstoppen E2|11,0.00177764892578125,15,0.9969388246536255,0.9987164735794067,Vårbergstoppen E2,18,16,True
+Vårbergstoppen E2|12,Vårbergstoppen E2|13,0.000467836856842041,15,0.9985558390617371,0.9990236759185791,Vårbergstoppen E2,18,16,True
+Vårbergstoppen E2|13,Vårbergstoppen E2|12,0.00019669532775878906,15,0.9991137385368347,0.9993104338645935,Vårbergstoppen E2,16,18,True
+Vårbergstoppen E2|13,Vårbergstoppen E2|8,0.0005272626876831055,15,0.9979684948921204,0.9984957575798035,Vårbergstoppen E2,16,16,True
+Vårbergstoppen E2|15,Vårbergstoppen E2|7,0.0004589557647705078,15,0.9968764781951904,0.9973354339599609,Vårbergstoppen E2,17,17,True
+Vårbergstoppen E2|15,Vårbergstoppen E2|12,0.0023820996284484863,15,0.9968259930610657,0.9992080926895142,Vårbergstoppen E2,17,18,True
+Vårbergstoppen E2|15,Vårbergstoppen E2|7,0.0006494522094726562,15,0.9969707727432251,0.9976202249526978,Vårbergstoppen E2,17,17,True
+Vårbergstoppen E2|2,Vårbergstoppen E2|1,0.0002447366714477539,15,0.9983248710632324,0.9985696077346802,Vårbergstoppen E2,16,15,True
+Vårbergstoppen E2|4,Vårbergstoppen E2|5,0.00039076805114746094,15,0.9979442954063416,0.998335063457489,Vårbergstoppen E2,13,16,True
+Vårbergstoppen E2|4,Vårbergstoppen E2|6,0.00241696834564209,15,0.9961602687835693,0.9985772371292114,Vårbergstoppen E2,13,17,True
+Vårbergstoppen E2|5,Vårbergstoppen E2|4,0.001017928123474121,15,0.9966486692428589,0.997666597366333,Vårbergstoppen E2,16,13,True
+Vårbergstoppen E2|7,Vårbergstoppen E2|8,0.0010225176811218262,15,0.9975901246070862,0.998612642288208,Vårbergstoppen E2,17,16,True
+Vårbergstoppen E2|7,Vårbergstoppen E2|12,0.0009421110153198242,15,0.9984872341156006,0.9994293451309204,Vårbergstoppen E2,17,18,True
+Wollmar Yxkullsgatan Extra bevattning|4,Wollmar Yxkullsgatan Extra bevattning|7,0.0010967254638671875,10,0.9934612512588501,0.9945579767227173,Wollmar Yxkullsgatan Extra bevattning,2,2,True
+Wollmar Yxkullsgatan Extra bevattning|5,Wollmar Yxkullsgatan Extra bevattning|7,0.001463770866394043,10,0.9950025677680969,0.996466338634491,Wollmar Yxkullsgatan Extra bevattning,1,2,True
+Wollmar Yxkullsgatan Extra bevattning|6,Wollmar Yxkullsgatan Extra bevattning|4,0.0008271932601928711,10,0.9958370923995972,0.99666428565979,Wollmar Yxkullsgatan Extra bevattning,1,2,True
+Wollmar Yxkullsgatan Extra bevattning|8,Wollmar Yxkullsgatan Extra bevattning|7,0.00037992000579833984,10,0.9946521520614624,0.9950320720672607,Wollmar Yxkullsgatan Extra bevattning,1,2,True
+Zornvägen 29|1,Zornvägen 29|2,0.008329391479492188,2,0.9869667291641235,0.9952961206436157,Zornvägen 29,21,20,True
+Åkervägen 122-125|3,Åkervägen 122-125|2,0.0006732344627380371,3,0.9955874681472778,0.9962607026100159,Åkervägen 122-125,4,5,True
+Ålstaskolan E2|1,Ålstaskolan E2|2,3.4689903259277344e-05,18,0.9961096048355103,0.9961442947387695,Ålstaskolan E2,1,1,True
+Ålstaskolan E2|10,Ålstaskolan E2|9,0.0007905960083007812,18,0.997515857219696,0.9983064532279968,Ålstaskolan E2,2,1,True
+Ålstaskolan E2|12,Ålstaskolan E2|16,0.0015562772750854492,18,0.9951788187026978,0.9967350959777832,Ålstaskolan E2,1,2,True
+Ålstaskolan E2|17,Ålstaskolan E2|13,0.001421809196472168,18,0.9946426153182983,0.9960644245147705,Ålstaskolan E2,2,1,True
+Ålstaskolan E2|2,Ålstaskolan E2|1,0.0002684593200683594,18,0.9957230687141418,0.9959915280342102,Ålstaskolan E2,1,1,True
+Ålstaskolan E2|3,Ålstaskolan E2|17,0.00040709972381591797,18,0.9954366683959961,0.995843768119812,Ålstaskolan E2,1,2,True
+Ålstaskolan E2|4,Ålstaskolan E2|5,0.0014975666999816895,18,0.9952211380004883,0.99671870470047,Ålstaskolan E2,1,1,True
+Ålstaskolan E2|6,Ålstaskolan E2|5,0.004986822605133057,18,0.9898293614387512,0.9948161840438843,Ålstaskolan E2,1,1,True
+Ålstaskolan E2|8,Ålstaskolan E2|9,0.00011301040649414062,18,0.9980757832527161,0.9981887936592102,Ålstaskolan E2,1,1,True
+Årstavägen 68|2,Årstavägen 68|1,0.0032095909118652344,2,0.9916963577270508,0.994905948638916,Årstavägen 68,1,1,True
+Örby torg|4,Örby torg|2,0.00031059980392456055,10,0.9956247806549072,0.9959353804588318,Örby torg,3,4,True
+Örby torg|6,Örby torg|5,0.0064811110496521,10,0.98720782995224,0.9936889410018921,Örby torg,3,7,True
+Örby torg|7,Örby torg|5,0.0001621246337890625,10,0.9983887672424316,0.9985508918762207,Örby torg,4,7,True

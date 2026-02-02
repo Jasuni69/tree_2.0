@@ -1,0 +1,90 @@
+[2026-01-23 13:53:45] ======================================================================
+[2026-01-23 13:53:45] WEEKEND TRAINING - CLEANED DATA ENSEMBLE
+[2026-01-23 13:53:45] ======================================================================
+[2026-01-23 13:53:45] 
+======================================================================
+[2026-01-23 13:53:45] STEP 1: TRAINING 5 MODELS ON CLEANED DATA
+[2026-01-23 13:53:45] ======================================================================
+[2026-01-23 13:53:45] 
+--- Training seed 42 ---
+[2026-01-23 13:53:45] >>> Train model seed 42
+[2026-01-23 13:53:45]     python training/train.py --seed 42 --epochs 30 --backbone efficientnet_b2 --batch_size 128 --input training_data_cleaned.xlsx
+[2026-01-23 14:44:47] !!! FAILED: Train model seed 42
+[2026-01-23 14:44:47] 
+--- Training seed 123 ---
+[2026-01-23 14:44:47] >>> Train model seed 123
+[2026-01-23 14:44:47]     python training/train.py --seed 123 --epochs 30 --backbone efficientnet_b2 --batch_size 128 --input training_data_cleaned.xlsx
+[2026-01-23 15:20:21] !!! FAILED: Train model seed 123
+[2026-01-23 15:20:21] 
+--- Training seed 456 ---
+[2026-01-23 15:20:21] >>> Train model seed 456
+[2026-01-23 15:20:21]     python training/train.py --seed 456 --epochs 30 --backbone efficientnet_b2 --batch_size 128 --input training_data_cleaned.xlsx
+[2026-01-23 15:38:32] !!! FAILED: Train model seed 456
+[2026-01-23 15:38:32] 
+--- Training seed 789 ---
+[2026-01-23 15:38:32] >>> Train model seed 789
+[2026-01-23 15:38:32]     python training/train.py --seed 789 --epochs 30 --backbone efficientnet_b2 --batch_size 128 --input training_data_cleaned.xlsx
+[2026-01-23 15:57:25] !!! FAILED: Train model seed 789
+[2026-01-23 15:57:25] 
+--- Training seed 1337 ---
+[2026-01-23 15:57:25] >>> Train model seed 1337
+[2026-01-23 15:57:25]     python training/train.py --seed 1337 --epochs 30 --backbone efficientnet_b2 --batch_size 128 --input training_data_cleaned.xlsx
+[2026-01-23 16:15:42] !!! FAILED: Train model seed 1337
+[2026-01-23 16:15:42] 
+--- Finding best model ---
+[2026-01-23 16:15:42] Seed 42: 20.15%
+[2026-01-23 16:15:42] Seed 123: 8.60%
+[2026-01-23 16:15:42] Seed 456: 9.22%
+[2026-01-23 16:15:42] Seed 789: 8.66%
+[2026-01-23 16:15:43] Seed 1337: 8.09%
+[2026-01-23 16:15:43] 
+Best model: seed 42 with 20.15%
+[2026-01-23 16:15:43] 
+======================================================================
+[2026-01-23 16:15:43] STEP 2: COMPUTING EMBEDDINGS WITH BEST MODEL
+[2026-01-23 16:15:43] ======================================================================
+[2026-01-23 16:15:43] >>> Compute embeddings v2
+[2026-01-23 16:15:43]     python inference/compute_embeddings_v2.py --model models/model_seed42.pt --output models/tree_embeddings_cleaned.pt --prototypes 3 --outlier_threshold 0.5 --input training_data_cleaned.xlsx
+[2026-01-23 16:23:16] <<< Done: Compute embeddings v2
+[2026-01-23 16:23:16] 
+======================================================================
+[2026-01-23 16:23:16] STEP 3: EVALUATION
+[2026-01-23 16:23:16] ======================================================================
+[2026-01-23 16:23:16] 
+--- Evaluating on CLEANED data ---
+[2026-01-23 16:23:16] >>> Evaluate on cleaned data
+[2026-01-23 16:23:16]     python inference/evaluate.py --model models/model_seed42.pt --embeddings models/tree_embeddings_cleaned.pt --input training_data_cleaned.xlsx
+[2026-01-23 17:28:06] <<< Done: Evaluate on cleaned data
+[2026-01-23 17:28:06] 
+--- Evaluating on ORIGINAL data (comparison) ---
+[2026-01-23 17:28:06] >>> Evaluate on original data
+[2026-01-23 17:28:06]     python inference/evaluate.py --model models/model_seed42.pt --embeddings models/tree_embeddings_cleaned.pt --input training_data_with_ground_truth.xlsx
+[2026-01-23 18:33:41] <<< Done: Evaluate on original data
+[2026-01-23 18:33:41] 
+======================================================================
+[2026-01-23 18:33:41] TRAINING COMPLETE
+[2026-01-23 18:33:41] ======================================================================
+[2026-01-23 18:33:41] Models trained: [42, 123, 456, 789, 1337]
+[2026-01-23 18:33:41] Best model: seed 42 (20.15%)
+[2026-01-23 18:33:41] New embeddings: models/tree_embeddings_cleaned.pt
+[2026-01-23 18:33:41] Full log: E:\tree_id_2.0\weekend_training_log.txt
+[2026-01-23 18:33:41] Results saved to weekend_training_results.json
+[2026-01-28 09:00:38] ======================================================================
+[2026-01-28 09:00:38] WEEKEND TRAINING - CLEANED DATA ENSEMBLE
+[2026-01-28 09:00:38] ======================================================================
+[2026-01-28 09:00:38] 
+======================================================================
+[2026-01-28 09:00:38] STEP 1: TRAINING 5 MODELS ON CLEANED DATA
+[2026-01-28 09:00:38] ======================================================================
+[2026-01-28 09:00:38] 
+--- Training seed 42 ---
+[2026-01-28 09:01:39] ======================================================================
+[2026-01-28 09:01:39] WEEKEND TRAINING - CLEANED DATA ENSEMBLE
+[2026-01-28 09:01:39] ======================================================================
+[2026-01-28 09:01:39] 
+======================================================================
+[2026-01-28 09:01:39] STEP 1: TRAINING 5 MODELS ON CLEANED DATA
+[2026-01-28 09:01:39] ======================================================================
+[2026-01-28 09:01:39] 
+--- Training seed 42 ---
+[2026-01-28 09:01:39] Cleaning up zombie workers (my PID: 188752)

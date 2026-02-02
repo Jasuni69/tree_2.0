@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Models (too large for git)
+models/**/*.pth
+models/**/*.pt
+models/**/*.onnx
+
+# Images (too large for git)
+images/
+
+# Data files (large)
+data/*.xlsx
+data/*.json
+*.xlsx
+
+# Reports
+prediction_report.html
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Claude
+.claude/
