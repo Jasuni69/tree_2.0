@@ -1,0 +1,44 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: treeid
+      POSTGRES_USER: treeid
+      POSTGRES_PASSWORD: treeid
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U treeid"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      TREEID_DATABASE_URL: postgresql+asyncpg://treeid:treeid@db:5432/treeid
+      TREEID_MODEL_CONFIG_PATH: /models/model_config.yaml
+      TREEID_PHOTO_STORAGE_PATH: /photos
+      TREEID_IMAGE_BASE_PATH: /images
+    volumes:
+      - ./model_checkpoints:/models:ro
+      - ./images:/images:ro
+      - photo_storage:/photos
+    depends_on:
+      db:
+        condition: service_healthy
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+volumes:
+  pgdata:
+  photo_storage:

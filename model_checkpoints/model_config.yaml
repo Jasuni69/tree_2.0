@@ -1,0 +1,20 @@
+# Model configuration for Tree Re-ID API
+# Edit active_models + active_mode, restart container to swap models.
+
+active_mode: "single"  # "single" or "ensemble"
+
+models:
+  convnext_384:
+    checkpoint_path: /models/convnext_384.pth
+    backbone_name: convnext_base
+    embedding_dim: 1024
+    input_size: 384
+  dinov2_378:
+    checkpoint_path: /models/dinov2_378.pth
+    backbone_name: vit_large_patch14_reg4_dinov2
+    embedding_dim: 1024
+    input_size: 378
+
+# Which model(s) to load at startup
+active_models:
+  - convnext_384

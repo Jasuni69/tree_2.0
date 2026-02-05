@@ -1,6 +1,6 @@
 """
-ConvNeXt-Base model for tree re-identification with metric learning.
-Adapted from tree_id_new/tree_id/src/tree_reid_model_convnext.py.
+Tree re-identification model with metric learning.
+Supports ConvNeXt (CNN) and DINOv2 (ViT) backbones.
 """
 
 import torch
@@ -23,36 +23,62 @@ class GeM(nn.Module):
         ).pow(1. / self.p)
 
 
+# Backbone feature dimensions
+BACKBONE_DIMS = {
+    'convnext_tiny': 768,
+    'convnext_small': 768,
+    'convnext_base': 1024,
+    'convnext_large': 1536,
+    'vit_base_patch14_reg4_dinov2': 768,
+    'vit_large_patch14_reg4_dinov2': 1024,
+    'vit_giant_patch14_reg4_dinov2': 1536,
+    'vit_base_patch14_dinov2': 768,
+    'vit_large_patch14_dinov2': 1024,
+    'vit_giant_patch14_dinov2': 1536,
+    'vit_small_patch14_reg4_dinov2': 384,
+    'vit_small_patch14_dinov2': 384,
+}
+
+
+def _is_vit(backbone_name: str) -> bool:
+    return backbone_name.startswith('vit_')
+
+
 class TreeReIdModel(nn.Module):
     """
-    Tree Re-ID model: ConvNeXt backbone + GeM pooling + embedding head.
+    Tree Re-ID model: backbone + pooling + embedding head.
+    ConvNeXt uses GeM pooling (4D features).
+    DINOv2 ViT outputs 2D features directly (CLS token).
     Returns L2-normalized embeddings.
     """
 
-    BACKBONE_DIMS = {
-        'convnext_tiny': 768,
-        'convnext_small': 768,
-        'convnext_base': 1024,
-        'convnext_large': 1536,
-    }
+    BACKBONE_DIMS = BACKBONE_DIMS
 
     def __init__(self, backbone_name: str = 'convnext_base',
                  embedding_dim: int = 1024, pretrained: bool = True,
-                 freeze_stages: int = 2, dropout_rate: float = 0.3):
+                 freeze_stages: int = 2, dropout_rate: float = 0.3,
+                 input_size: int = 224):
         super().__init__()
         self.backbone_name = backbone_name
         self.embedding_dim = embedding_dim
-        self.backbone_dim = self.BACKBONE_DIMS[backbone_name]
+        self.is_vit = _is_vit(backbone_name)
+        self.backbone_dim = BACKBONE_DIMS[backbone_name]
 
-        self.backbone = timm.create_model(
-            backbone_name, pretrained=pretrained,
-            num_classes=0, global_pool=''
-        )
+        if self.is_vit:
+            self.backbone = timm.create_model(
+                backbone_name, pretrained=pretrained,
+                num_classes=0, img_size=input_size
+            )
+            self.pool = nn.Identity()
+        else:
+            self.backbone = timm.create_model(
+                backbone_name, pretrained=pretrained,
+                num_classes=0, global_pool=''
+            )
+            self.pool = GeM()
 
         if freeze_stages > 0:
             self._freeze_stages(freeze_stages)
-
-        self.pool = GeM()
 
         self.embedding_head = nn.Sequential(
             nn.Linear(self.backbone_dim, 1024),
@@ -72,12 +98,23 @@ class TreeReIdModel(nn.Module):
                 nn.init.constant_(m.bias, 0)
 
     def _freeze_stages(self, num_stages: int):
-        if num_stages >= 1:
-            for param in self.backbone.stem.parameters():
+        if self.is_vit:
+            # Freeze patch embed + first N transformer blocks
+            for param in self.backbone.patch_embed.parameters():
                 param.requires_grad = False
-        for i in range(min(num_stages - 1, 4)):
-            for param in self.backbone.stages[i].parameters():
-                param.requires_grad = False
+            if hasattr(self.backbone, 'blocks'):
+                n_blocks = len(self.backbone.blocks)
+                freeze_n = min(num_stages * (n_blocks // 4), n_blocks)
+                for i in range(freeze_n):
+                    for param in self.backbone.blocks[i].parameters():
+                        param.requires_grad = False
+        else:
+            if num_stages >= 1:
+                for param in self.backbone.stem.parameters():
+                    param.requires_grad = False
+            for i in range(min(num_stages - 1, 4)):
+                for param in self.backbone.stages[i].parameters():
+                    param.requires_grad = False
 
     def unfreeze_all(self):
         for param in self.parameters():
@@ -85,8 +122,9 @@ class TreeReIdModel(nn.Module):
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         features = self.backbone(x)
-        features = self.pool(features)
-        features = features.view(features.size(0), -1)
+        if not self.is_vit:
+            features = self.pool(features)
+            features = features.view(features.size(0), -1)
         embeddings = self.embedding_head(features)
         embeddings = F.normalize(embeddings, p=2, dim=1)
         return embeddings

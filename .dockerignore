@@ -1,0 +1,11 @@
+# Large dirs - don't copy into build context
+images/
+models/
+model_checkpoints/*.pth
+data/
+__pycache__/
+*.pyc
+.git/
+.env
+*.pt
+*.pth

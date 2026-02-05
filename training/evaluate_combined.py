@@ -126,6 +126,7 @@ def evaluate():
     N_PROTOTYPES = 3
     OUTLIER_THRESHOLD = 0.5
     USE_TTA = True
+    QE_ALPHA = 0.7  # query expansion: weight for original query vs prototype
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     np.random.seed(seed)
@@ -215,12 +216,13 @@ def evaluate():
 
     # ========== EVALUATE ALL STRATEGIES ==========
     print(f"\nEvaluating {len(test_indices)} held-out photos...")
-    print(f"Config: GPS={GPS_RADIUS}m, alpha={ALPHA}, TTA={USE_TTA}")
+    print(f"Config: GPS={GPS_RADIUS}m, alpha={ALPHA}, TTA={USE_TTA}, QE_alpha={QE_ALPHA}")
 
     results = {k: {'correct': 0, 'total': 0} for k in [
         'proto_only', 'proto_top3',
         'gps_proto', 'gps_proto_top3',
         'gps_rerank', 'gps_rerank_top3',
+        'gps_qe', 'gps_qe_top3',
     ]}
     trivial = 0
     errors_gps_rerank = []
@@ -310,6 +312,25 @@ def evaluate():
             if true_key in [c[0] for c in reranked[:3]]:
                 results['gps_rerank_top3']['correct'] += 1
 
+            # Query expansion: refine query with top-1 prototype, re-match
+            top1_key = gps_cands_sorted[0][0]
+            top1_proto = max(tree_prototypes[top1_key], key=lambda p: float(np.dot(query, p)))
+            qe_query = QE_ALPHA * query + (1 - QE_ALPHA) * top1_proto
+            qe_query = qe_query / (np.linalg.norm(qe_query) + 1e-8)
+
+            qe_cands = []
+            for k, _, d in gps_cands:
+                best = max(float(np.dot(qe_query, p)) for p in tree_prototypes[k])
+                qe_cands.append((k, best))
+            qe_cands.sort(key=lambda x: x[1], reverse=True)
+
+            results['gps_qe']['total'] += 1
+            results['gps_qe_top3']['total'] += 1
+            if qe_cands[0][0] == true_key:
+                results['gps_qe']['correct'] += 1
+            if true_key in [c[0] for c in qe_cands[:3]]:
+                results['gps_qe_top3']['correct'] += 1
+
             # Track for multi-photo voting
             tree_test_photos[true_key].append(reranked[0][0])
 
@@ -327,7 +348,7 @@ def evaluate():
     # ========== RESULTS ==========
     print("\n" + "=" * 70)
     print("COMBINED EVALUATION RESULTS")
-    print(f"TTA={USE_TTA}, GPS={GPS_RADIUS}m, alpha={ALPHA}")
+    print(f"TTA={USE_TTA}, GPS={GPS_RADIUS}m, alpha={ALPHA}, QE_alpha={QE_ALPHA}")
     print("=" * 70)
     print(f"Test photos: {len(test_indices)}, Trivial: {trivial}\n")
 
