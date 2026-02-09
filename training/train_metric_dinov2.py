@@ -80,7 +80,7 @@ def train():
     INPUT_SIZE = 378  # 378/14 = 27 patches per side
 
     # Resume from checkpoint (set to None to train from scratch)
-    RESUME_CHECKPOINT = r'E:\tree_id_2.0\models\metric_dinov2\checkpoint_epoch_0030.pth'
+    RESUME_CHECKPOINT = r'E:\tree_id_2.0\models\metric_dinov2\best_model.pth'
 
     # Training — tight batch for 10GB VRAM
     EPOCHS = 60
