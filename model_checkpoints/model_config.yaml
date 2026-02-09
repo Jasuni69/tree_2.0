@@ -1,7 +1,7 @@
 # Model configuration for Tree Re-ID API
 # Edit active_models + active_mode, restart container to swap models.
 
-active_mode: "single"  # "single" or "ensemble"
+active_mode: "concat"  # "single", "ensemble" (average), or "concat" (concatenate)
 
 models:
   convnext_384:
@@ -16,5 +16,7 @@ models:
     input_size: 378
 
 # Which model(s) to load at startup
+# For ConvNeXt + DINOv2 ensemble (90.9% top-1 with GPS)
 active_models:
   - convnext_384
+  - dinov2_378

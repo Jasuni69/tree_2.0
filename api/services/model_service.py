@@ -124,17 +124,40 @@ class ModelService:
         return avg
 
     @torch.no_grad()
+    def extract_embedding_concat(self, image: Image.Image) -> np.ndarray:
+        """Extract embedding by concatenating all active models, then re-normalize."""
+        embeddings = []
+        for name in self.active_models:
+            emb = self.extract_embedding(image, model_name=name)
+            embeddings.append(emb)
+
+        if len(embeddings) == 1:
+            return embeddings[0]
+
+        concat = np.concatenate(embeddings, axis=0)
+        concat = concat / (np.linalg.norm(concat) + 1e-8)
+        return concat
+
+    @torch.no_grad()
     def extract_embedding_auto(self, image: Image.Image) -> np.ndarray:
-        """Extract embedding using configured mode (single or ensemble)."""
-        if self.active_mode == "ensemble" and len(self.active_models) > 1:
-            return self.extract_embedding_ensemble(image)
+        """Extract embedding using configured mode (single, ensemble, or concat)."""
+        if len(self.active_models) > 1:
+            if self.active_mode == "concat":
+                return self.extract_embedding_concat(image)
+            elif self.active_mode == "ensemble":
+                return self.extract_embedding_ensemble(image)
         return self.extract_embedding(image)
 
     @torch.no_grad()
     def extract_batch_embeddings(
         self, images: list[Image.Image], model_name: str | None = None, batch_size: int = 32
     ) -> np.ndarray:
-        """Extract embeddings for a batch of PIL images."""
+        """Extract embeddings for a batch of PIL images using configured mode."""
+        # For concat/ensemble mode, use all active models
+        if len(self.active_models) > 1 and self.active_mode in ("concat", "ensemble"):
+            return self._extract_batch_multi_model(images, batch_size)
+
+        # Single model
         if model_name is None:
             model_name = self.active_models[0]
 
@@ -150,10 +173,53 @@ class ModelService:
 
         return np.concatenate(all_embs, axis=0)
 
+    @torch.no_grad()
+    def _extract_batch_multi_model(
+        self, images: list[Image.Image], batch_size: int = 32
+    ) -> np.ndarray:
+        """Extract embeddings using all active models, then combine."""
+        all_model_embs = []
+
+        for name in self.active_models:
+            model = self.models[name]
+            transform = self.transforms[name]
+
+            model_embs = []
+            for i in range(0, len(images), batch_size):
+                batch = images[i : i + batch_size]
+                tensors = torch.stack([transform(img) for img in batch]).to(self.device)
+                embs = model(tensors).cpu().numpy()
+                model_embs.append(embs)
+
+            all_model_embs.append(np.concatenate(model_embs, axis=0))
+
+        if len(all_model_embs) == 1:
+            return all_model_embs[0]
+
+        if self.active_mode == "concat":
+            # Concatenate embeddings from all models
+            combined = np.concatenate(all_model_embs, axis=1)
+        else:
+            # Average embeddings
+            combined = np.mean(all_model_embs, axis=0)
+
+        # Re-normalize
+        norms = np.linalg.norm(combined, axis=1, keepdims=True) + 1e-8
+        combined = combined / norms
+        return combined
+
     def get_active_model_name(self) -> str:
-        if self.active_mode == "ensemble":
-            return "ensemble:" + "+".join(self.active_models)
+        if self.active_mode in ("ensemble", "concat"):
+            return f"{self.active_mode}:" + "+".join(self.active_models)
         return self.active_models[0] if self.active_models else "none"
+
+    def get_embedding_dim(self) -> int:
+        """Get total embedding dimension for current mode."""
+        if not self.active_models:
+            return 0
+        if self.active_mode == "concat" and len(self.active_models) > 1:
+            return sum(self.configs[n]["embedding_dim"] for n in self.active_models)
+        return self.configs[self.active_models[0]]["embedding_dim"]
 
     def is_loaded(self) -> bool:
         return len(self.active_models) > 0
